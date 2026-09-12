@@ -48,7 +48,7 @@ A beginner-friendly, reproducible workflow for turning **LiDAR data into heightm
 
 ## What This Tutorial Does
 
-This tutorial shows you how to turn LiDAR point-cloud data into a **heightmaps, basemaps, and tree placement maps that can serve as a starting point for creating a BeamNG.drive map**.
+This tutorial shows you how to turn LiDAR point-cloud data into **heightmaps, basemaps, and tree placement maps that can serve as a starting point for creating a BeamNG.drive map**.
 
 The workflow covers:
 
@@ -147,7 +147,7 @@ Individual processing scripts can then be run through Docker:
 04_resources/                Download list and supporting resources
 05_library/                  Additional tools and workflows
 06_photos/                   Tutorial images
-07_credits_and_resources/    Map downloads, Attributions, and additonal resources
+07_credits_and_resources/    Map downloads, attributions, and additional resources
 
 run_pipeline.sh              Docker execution wrapper
 dockerfile                   Docker environment
