@@ -1,0 +1,39 @@
+{
+    "pipeline": [
+        {
+            "type": "readers.las",
+            "tag": "reader_las",
+            "filename": "placeholder.laz"
+        },
+        {
+            "type": "writers.gdal",
+            "tag": "write_red",
+            "filename": "placeholder_red.tif",
+            "dimension": "Red",
+            "data_type": "uint8",
+            "resolution": 0.5,
+            "output_type": "idw",
+            "window_size": 3
+        },
+        {
+            "type": "writers.gdal",
+            "tag": "write_green",
+            "filename": "placeholder_green.tif",
+            "dimension": "Green",
+            "data_type": "uint8",
+            "resolution": 0.5,
+            "output_type": "idw",
+            "window_size": 3
+        },
+        {
+            "type": "writers.gdal",
+            "tag": "write_blue",
+            "filename": "placeholder_blue.tif",
+            "dimension": "Blue",
+            "data_type": "uint8",
+            "resolution": 0.5,
+            "output_type": "idw",
+            "window_size": 3
+        }
+    ]
+}

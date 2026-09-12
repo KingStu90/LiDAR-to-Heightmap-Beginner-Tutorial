@@ -1,0 +1,14 @@
+[
+    {
+        "type": "readers.las",
+        "filename": "INPUT_FILE.laz"
+    },
+    {
+        "type": "writers.gdal",
+        "filename": "OUTPUT_FILE.tif",
+        "resolution": 1.0,
+        "output_type": "max",
+        "data_type": "float32"
+    }
+]
+

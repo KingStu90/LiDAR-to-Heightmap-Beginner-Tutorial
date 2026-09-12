@@ -1,0 +1,9 @@
+https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_SanJoaquin_2021_A21/CA_SanJoaquin_6_2021/LAZ/USGS_LPC_CA_SanJoaquin_2021_A21_s60975w23650.laz
+https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_SanJoaquin_2021_A21/CA_SanJoaquin_6_2021/LAZ/USGS_LPC_CA_SanJoaquin_2021_A21_s60975w23675.laz
+https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_SanJoaquin_2021_A21/CA_SanJoaquin_6_2021/LAZ/USGS_LPC_CA_SanJoaquin_2021_A21_s60975w23700.laz
+https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_SanJoaquin_2021_A21/CA_SanJoaquin_6_2021/LAZ/USGS_LPC_CA_SanJoaquin_2021_A21_s61000w23650.laz
+https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_SanJoaquin_2021_A21/CA_SanJoaquin_6_2021/LAZ/USGS_LPC_CA_SanJoaquin_2021_A21_s61000w23675.laz
+https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_SanJoaquin_2021_A21/CA_SanJoaquin_6_2021/LAZ/USGS_LPC_CA_SanJoaquin_2021_A21_s61000w23700.laz
+https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_SanJoaquin_2021_A21/CA_SanJoaquin_6_2021/LAZ/USGS_LPC_CA_SanJoaquin_2021_A21_s61025w23650.laz
+https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_SanJoaquin_2021_A21/CA_SanJoaquin_6_2021/LAZ/USGS_LPC_CA_SanJoaquin_2021_A21_s61025w23675.laz
+https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_SanJoaquin_2021_A21/CA_SanJoaquin_6_2021/LAZ/USGS_LPC_CA_SanJoaquin_2021_A21_s61025w23700.laz
