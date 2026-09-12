@@ -2,7 +2,7 @@
 
 A beginner-friendly, reproducible workflow for turning **LiDAR data into heightmaps, basemaps, and tree placement maps for BeamNG.drive**.
 
-[**View the full tutorial website→**](https://kingstu90.github.io/LiDAR-to-Heightmap-Tutorial-Website/)
+[**View the full tutorial website**](https://kingstu90.github.io/LiDAR-to-Heightmap-Tutorial-Website/) →
 
 [**Start the tutorial**](01_tutorial/01-downloading-point-cloud-data.md) →
 
