@@ -169,8 +169,6 @@ dockerfile                   Docker environment
 
 [**Sources**](07_credits_and_resources/03-citations-and-attribution.md) →
 
-***
-
 ## Feedback & Support
 
 If you find an issue with the tutorial, have a question, or have feedback on the workflow, I'd be happy to hear from you at <b>kingstuart75@gmail.com</b>.
