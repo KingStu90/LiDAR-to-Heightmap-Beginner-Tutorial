@@ -111,7 +111,7 @@ The native workflow requires the software used by each step to be installed on y
 
 *Depending on your operating system and what dependencies are installed, you may need to do some troubleshooting to get all the programs working correctly*.
 
-#### Docker Execution
+### Docker Execution
 
 The repository also includes a Docker workflow that packages the required processing environment into a container.
 
@@ -171,7 +171,7 @@ dockerfile                   Docker environment
 
 ***
 
-### Feedback & Support
+## Feedback & Support
 
 If you find an issue with the tutorial, have a question, or have feedback on the workflow, I'd be happy to hear from you at <b>kingstuart75@gmail.com</b>.
 
