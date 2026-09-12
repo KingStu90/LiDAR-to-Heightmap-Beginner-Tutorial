@@ -1,4 +1,3 @@
-run_pipeline.sh
 site
 publish_to_site.sh
 .obsidian
