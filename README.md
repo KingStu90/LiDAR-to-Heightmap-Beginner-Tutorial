@@ -153,19 +153,19 @@ run_pipeline.sh              Docker execution wrapper
 dockerfile                   Docker environment
 ```
 
-## Start the Tutorial
+### Start the Tutorial
 
 [**Step 1: Downloading LiDAR Data**](01_tutorial/01-downloading-point-cloud-data.md) →
 
-## Map Downloads & More Examples 
+### Map Downloads & More Examples 
 
 [**Final Results**](07_credits_and_resources/01-downloads-and-more-examples.md) →
 
-## LiDAR Data and Other Resources
+### LiDAR Data and Other Resources
 
 [**Useful Resources**](07_credits_and_resources/02-lidar-data-and-other-resources.md) →
 
-## Citations and Attribution
+### Citations and Attribution
 
 [**Sources**](07_credits_and_resources/03-citations-and-attribution.md) →
 
