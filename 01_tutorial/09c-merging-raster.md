@@ -37,11 +37,11 @@ echo "Finished: heightmap_MERGED.tif"
 ./run_pipeline.sh 09c_heightmap_merge_tif.sh
 ```
 
-## Previous Step
+### Previous Step
 
 [**Step 9b: Creating the Heightmap Raster**](09b-creating-the-heightmap.md)  ←
 
-## Next Step
+### Next Step
 
 [**Step 10: Finalizing the Heightmap**](10-finalizing-heightmap.md) →
 
