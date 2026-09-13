@@ -51,7 +51,7 @@ With this new method the **original tile extent is preserved** during the raster
 </figure>
 
 > [!NOTE]  
-> This is one of the steps that **may require some experimentation with different settings to correctly identify trees**. As shown above **(A)**, parts of the El Capitan mountain face were misidentified as trees. 
+> This is one of the steps that **may require some experimentation with different settings to correctly identify trees**. As shown above **(A)**, parts of the El Capitan mountain face were misidentified as trees.<br>  
 >This could be reduced by further refining `filters.approximatecoplanar` and adding **linearity-based filtering**. The settings in this tutorial are intentionally kept **conservative and broadly applicable**.
 
 ***
