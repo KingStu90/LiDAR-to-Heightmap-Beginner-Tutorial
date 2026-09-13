@@ -68,7 +68,7 @@ The repository contains the complete project files used by the tutorial, includi
 
 - Step-by-step tutorial notes
 - Processing scripts for each stage of the workflow
-- `downloadlist.txt` containing the source data used in the tutorial
+- `downloadlist.txt` containing links to the source data used in the tutorial
 - Native execution commands
 - A Docker-based workflow
 
