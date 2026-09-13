@@ -120,8 +120,6 @@ The native workflow requires the software used by each step to be installed on y
 
 *The Docker workflow is primarily intended for Linux users. Docker Desktop can run Linux containers on Windows using WSL 2, but this tutorial does not currently provide Windows-specific Docker instructions or test the Docker workflow on Windows.*
 
-The repository also includes a Docker workflow that packages the required processing environment into a container.
-
 If you want to use the Docker workflow, install Docker first:
 [**Download Docker**](https://www.docker.com/get-started/)
 
