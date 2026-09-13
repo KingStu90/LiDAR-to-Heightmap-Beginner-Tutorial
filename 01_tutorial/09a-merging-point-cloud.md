@@ -47,10 +47,10 @@ echo "Finished: heightmap_MERGED.laz"
 ./run_pipeline.sh 09a_heightmap_merge_laz.sh
 ```
 
-## Previous Step
+### Previous Step
 
 [**Step 8: Scaling Point Cloud to 50%**](08-scale-50.md)  ←
 
-## Next Step
+### Next Step
 
 [**Step 9b: Creating the Heightmap Raster**](09b-creating-the-heightmap.md) →
