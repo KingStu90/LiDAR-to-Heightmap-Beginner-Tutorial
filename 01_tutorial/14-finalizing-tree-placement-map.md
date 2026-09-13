@@ -117,6 +117,6 @@ echo "Finished: $output_file"
 
 [**Sources**](../07_credits_and_resources/03-citations-and-attribution.md) →
 
-## LiDAR Data and Other Resources
+### LiDAR Data and Other Resources
 
 [**Useful Resources**](../07_credits_and_resources/02-lidar-data-and-other-resources.md) →
