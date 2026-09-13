@@ -68,7 +68,7 @@
 </div>
 
 >[!NOTE]
->**`gdalinfo` is essentially the GDAL equivalent of `pdal info`, but for raster data.** It can be used to inspect information about a raster file, including its CRS, dimensions, resolution, bands, and other metadata.
+>`gdalinfo` **is essentially the GDAL equivalent of** `pdal info`, but for raster data. It can be used to inspect information about a raster file, including its CRS, dimensions, resolution, bands, and other metadata.
 
 #### GDAL Info Native Execution 
 
