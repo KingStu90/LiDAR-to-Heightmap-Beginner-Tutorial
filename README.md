@@ -56,7 +56,7 @@ This tutorial shows you how to turn LiDAR point-cloud data into **heightmaps, ba
 
 The workflow covers:
 
-- Downloading LiDAR data
+- Downloading LiDAR point-cloud data
 - Downloading and reprojecting aerial imagery
 - Colorizing point clouds
 - Cleaning and filtering point-cloud data
