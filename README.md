@@ -195,7 +195,7 @@ dockerfile                   Docker environment
 
 If you find an issue with the tutorial, have a question, or have feedback on the workflow, I'd be happy to hear from you at <b>kingstuart75@gmail.com</b>.
 
-**Please don't send file attachments or links.** I can't guarantee that I will open or access files or links sent by email.
+**Please don't send file attachments.** I can't guarantee that I will open files or links sent by email.
 
 If the tutorial helped you out and you'd like to support the project, the easiest way is to **share the link** with someone who might find it useful. You can also [**buy me a coffee**](https://buymeacoffee.com/stuartking).
 
