@@ -88,7 +88,7 @@ docker run --rm \
 
 #### 4) Convert to 8-Bit `.png`
 
-- **Outputs the final Tree Placement Map**. Replace `buttonwillow` with your own name.
+- **Outputs the final Tree Placement Map**. Replace `FINAL_tree_placement_map_buttonwillow.png` with your own name.
 
 ```bash
 #!/bin/bash
