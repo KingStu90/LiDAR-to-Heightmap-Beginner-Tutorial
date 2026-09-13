@@ -104,7 +104,7 @@ You can follow the tutorial using the included `downloadlist.txt` to reproduce t
 
 ### Native Execution
 
-***All of the software used in the tutorial is listed below and is free to download.***
+All of the software used in the tutorial is listed below and is free to download.
 
 - [**CloudCompare**](https://www.cloudcompare.org/) (*Required*) - 3D point cloud and mesh analysis tool 
 
@@ -120,7 +120,7 @@ You can follow the tutorial using the included `downloadlist.txt` to reproduce t
 
 - [**LAStools**](https://rapidlasso.de/downloads/) (*Optional*) - LiDAR processing software with a mix of **free and paid tools**. Alternative method for merging large datasets
 
-Depending on your operating system and what dependencies are installed, you may need to do some troubleshooting to get all the programs working correctly.
+**Depending on your operating system and what dependencies are installed, you may need to do some troubleshooting to get all the programs working correctly**.
 
 ### Docker Execution
 
