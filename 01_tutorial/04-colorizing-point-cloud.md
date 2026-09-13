@@ -71,10 +71,10 @@ done
 >
 >**This process will still output "completed" `.laz` files even if the imagery and point cloud data are misaligned.** Depending on the workflow of later processes, you may not be able to colorize the point cloud later if its spatial information has been lost or overwritten.
   
-## Previous Step
+### Previous Step
 
 [**Step 3: Reprojecting Imagery**](03-reprojecting-imagery.md)  ←
 
-## Next Step
+### Next Step
 
 [**Step 5: Cleaning Point Cloud**](05-cleaning-point-cloud.md) →
