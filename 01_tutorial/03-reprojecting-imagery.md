@@ -127,10 +127,10 @@ echo "Finished: MERGED_REPROJECT.tif"
 ./run_pipeline.sh 03_reproject.sh
 ```
 
-## Previous Step
+### Previous Step
 
 [**Step 2: Downloading Imagery**](02-downloading-imagery.md)  ←
 
-## Next Step
+### Next Step
 
 [**Step 4: Colorizing Point Cloud**](04-colorizing-point-cloud.md) →
