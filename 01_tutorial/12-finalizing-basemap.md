@@ -111,10 +111,10 @@ docker run --rm \
 echo "Finished: $output_file"
 ```
 
-## Previous Step
+### Previous Step
 
 [**Step 11: Creating the Basemap Raster**](11-creating-the-basemap-cloudcompare.md)  ←
 
-## Next Step
+### Next Step
 
-[**Step 13: Isolating Trees**](13-isolating-trees.md) →
+[**Step 13: Creating the Tree Placement Map**](13-isolating-trees.md) →
