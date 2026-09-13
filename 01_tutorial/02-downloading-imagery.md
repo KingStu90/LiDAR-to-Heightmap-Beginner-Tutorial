@@ -58,7 +58,7 @@ For downloading imagery outside the U.S., I will only briefly cover the QGIS met
 **D)** Click the **Cart** on left sidebar to **Checkout** (*Requires email address to receive download link*).
 
 >[!NOTE]
->To find out which **Projection and Datum Options** to select, use `pdal info --summary` on the `.laz` file. The output will be a huge wall of text and may be overwhelming at first. Look for the **EPSG code** located here (**A**).<br> 
+>To find out which **Projection and Datum Options** to select, use `pdal info --summary` on the `.laz` file. The output will be a huge wall of text and may be overwhelming at first.Look for the **EPSG code** located here (**A**).<br> 
 >Once you have the EPSG code, enter it into [**EPSG.io**](https://epsg.io/6424) to make the information easier to read. On the EPSG.io page, scroll down to **Export** and select the **ESRI WKT** tab.
 
 <div align="center">
@@ -94,7 +94,7 @@ docker run --rm \
   style="max-width: 80%; height: auto;">
 </div>
 
-**A)** ***WMS, XYZ Tiles, and ArcGIS REST Server*** are possible sources for imagery (*right-click > New Connection...*). 
+**A)** *WMS, XYZ Tiles, and ArcGIS REST Server* are possible sources for imagery (*right-click > New Connection...*). 
   
 - Curated list of ArcGIS REST Servers by [**Joseph Elfelt**](https://mappingsupport.com/p/surf_gis/list-federal-state-county-city-GIS-servers.pdf).
   
@@ -102,7 +102,7 @@ docker run --rm \
   
 **C)** Zoom in to a larger map scale to access **higher-resolution imagery** (*e.g. 1:5000 → 1:2500*). Once you reach the **maximum zoom level**, zooming in further the image will just get blurrier rather than provide more detail.
   
-**D)** **Select the point-cloud tile from the "Calculate from" menu.** QGIS will then download imagery covering exactly the same area as the point cloud.
+**D)** **Select the point-cloud tile from the "Calculate from" menu.** QGIS then downloads imagery covering exactly the same area as the point cloud.
   
 **E)** **Higher DPI produces a higher-resolution exported image, with more pixels covering the same area.** This gives the point cloud, which is often denser than the imagery, more detailed color information to sample from. This usually results in a sharper-looking basemap. *NOTE: There is a limit for the download file size on some servers, and the imagery may be blank if the download exceeds this limit*.
 
