@@ -44,7 +44,7 @@ While the USGS covers much of the United States, **additional LiDAR datasets** m
 
 ***
 
-This script uses `wget` to download everything listed in `downloadlist.txt`. It **resumes incomplete downloads**, **skips files that already exist**, and **spaces out requests with randomized delays**.
+**This script uses** `wget` **to download everything listed in** `downloadlist.txt`. It resumes incomplete downloads, skips files that already exist, and spaces out requests with randomized delays.
 
 #### Native Execution 
 
