@@ -101,8 +101,7 @@ These settings in `13b_pipeline_trees_raster.json` are **recommended defaults**
 
 #### 13a Tree Filter and Raster
 
-This script filters each colorized `.laz` point cloud to **isolate tree points**, then **rasterizes the filtered tree points** into `.tif` files while **preserving the original tile boundaries**.<br> 
-The original tile bounds are retrieved before filtering so that the resulting tree rasters maintain the same spatial extent as the source tiles.
+This script filters each colorized `.laz` point cloud to **isolate tree points**, then **rasterizes the filtered tree points** into `.tif` files while **preserving the original tile boundaries**. The original tile bounds are retrieved before filtering so that the resulting tree rasters maintain the same spatial extent as the source tiles.
 
 #### Native Execution
 
