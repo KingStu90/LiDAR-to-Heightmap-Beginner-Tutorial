@@ -61,7 +61,7 @@ The workflow covers:
 - Colorizing point clouds
 - Cleaning and filtering point-cloud data
 - Creating and processing heightmaps
-- Creating basemaps from colorized LiDAR data
+- Creating basemaps from colorized point-cloud data
 - Extracting tree locations for use with the BeamNG Biome Tool
 
 The tutorial is designed for beginners and introduces the GIS and LiDAR concepts needed along the way.
