@@ -163,7 +163,7 @@ Individual processing scripts can then be run through Docker:
 04_resources/                Download list and supporting resources
 05_library/                  Additional tools and workflows
 06_photos/                   Tutorial images
-07_credits_and_resources/    Map downloads, attributions, and additional resources
+07_credits_and_resources/    Map download links, attributions, and additional resources
 
 run_pipeline.sh              Docker execution wrapper
 dockerfile                   Docker environment
