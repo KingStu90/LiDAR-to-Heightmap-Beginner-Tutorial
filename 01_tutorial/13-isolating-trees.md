@@ -2,13 +2,13 @@
 
 ### Overview
 
-- ***This process, like the basemap rasterization process, was modified during the writing of this tutorial,*** so I have not done as much testing on this process as the rest of this tutorial.
+- *This process, like the basemap rasterization process, was modified during the writing of this tutorial,* so I have not done as much testing on this process as the rest of this tutorial.
 
-- This step uses **PDAL filters** on the point cloud tiles from Step 4 to **isolate points associated with trees**.
+- This step uses PDAL filters on the point cloud tiles from *Step 4* to **isolate points associated with trees**.
   
-- The filtered points are converted into raster tiles to create a **tree placement map**. In BeamNG.drive we can use this to **place trees with the World Editor** [**Biome Tool**](https://documentation.beamng.com/world_editor/tools/biome_tool/).
+- The filtered points are converted into raster tiles to create a **tree placement map**. In BeamNG.drive we can use this to place trees with the World Editor [**Biome Tool**](https://documentation.beamng.com/world_editor/tools/biome_tool/).
   
-The filtering process **removes most of the points from the original tile**, so the **remaining points might occupy only a small portion of the original extent** (*as shown with Buttonwillow*). When the raster is created from only the filtered points, the **resulting raster is smaller than the original tile**. With this new method the **original tile extent is preserved** during the rasterization process **so the same crop coordinates can be used** later to keep the tree placement map aligned with the heightmap and basemap.
+The filtering process **removes most of the points from the original tile**, so the **remaining points might occupy only a small portion of the original extent** (*as shown with Buttonwillow*). When the raster is created from only the filtered points, the **resulting raster is smaller than the original tile**. With this new method the **original tile extent is preserved** during the rasterization process so the same crop coordinates can be used later to keep the tree placement map aligned with the heightmap and basemap.
 
 <div align="center">
   <img src="../06_photos/13e_trees.webp" 
@@ -50,7 +50,8 @@ The filtering process **removes most of the points from the original tile**, so 
 </figure>
 
 > [!NOTE]  
-> This is one of the steps that **may require some experimentation with different settings to correctly identify trees**. As shown above **(A)**, parts of the El Capitan mountain face were **misidentified as trees**. This could be reduced by further refining `filters.approximatecoplanar` and adding linearity-based filtering. The settings in this tutorial are intentionally kept **conservative and broadly applicable**.
+> This is one of the steps that **may require some experimentation with different settings to correctly identify trees**. As shown above **(A)**, parts of the El Capitan mountain face were misidentified as trees. 
+>This could be reduced by further refining `filters.approximatecoplanar` and adding **linearity-based filtering**. The settings in this tutorial are intentionally kept **conservative and broadly applicable**.
 
 ***
 
@@ -68,11 +69,11 @@ The filtering process **removes most of the points from the original tile**, so 
 
 **B)** Calculates the height of each point above the ground.
 
-**C)** Analyzes the local geometry of points to help distinguish **planar surfaces** from **irregular vegetation**.
+**C)** Analyzes the local geometry of points to help distinguish **planar surfaces** from irregular vegetation.
 
 **D)** Keeps only points **35–115 units above ground** and **removes points classified as coplanar**.
 
-**E)** **Reduces the number of remaining points** by keeping a representative point within each **20-unit voxel**.
+**E)** **Reduces the number of remaining points** by keeping a representative point within each 20-unit voxel.
 
 | Filter                                 | Setting                     | Unit-dependent? |
 | -------------------------------------- | --------------------------- | --------------- |
@@ -87,7 +88,7 @@ The filtering process **removes most of the points from the original tile**, so 
 | `filters.voxelcentroidnearestneighbor` | `cell: 20.0`                | **Yes**\*       |
 
 >[!NOTE]
->The settings that are **unit-dependent**\* are given in **feet**. **If your original dataset uses meters**, multiply the values given by `0.3048` to convert them to meters.
+>The settings that are **unit-dependent**\* are given in *feet*. If your original dataset uses *meters*, multiply the values given by `0.3048` to convert them to meters.
 
 ***
 
@@ -99,7 +100,7 @@ These settings in `13b_pipeline_trees_raster.json` are **recommended defaults**
 
 #### 13a Tree Filter and Raster
 
-This script **filters each colorized `.laz` point cloud to isolate tree points**, then **rasterizes the filtered tree points into `.tif` files** while preserving the original tile boundaries. The original tile bounds are retrieved before filtering so that the resulting tree rasters **maintain the same spatial extent as the source tiles**.
+This script filters each colorized `.laz` point cloud to **isolate tree points**, then **rasterizes the filtered tree points** into `.tif` files while **preserving the original tile boundaries**. The original tile bounds are retrieved before filtering so that the resulting tree rasters maintain the same spatial extent as the source tiles.
 
 #### Native Execution
 
