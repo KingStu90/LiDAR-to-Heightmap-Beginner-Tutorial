@@ -2,7 +2,7 @@
 
 ### Overview
 
-**Steps 5 and 6** use **CloudCompare's Command Line Interface** (CLI) to process the point cloud instead of the **Graphical User Interface** (GUI).
+*Steps 5 and 6* use CloudCompare's Command Line Interface (*CLI*) to process the point cloud instead of the Graphical User Interface (*GUI*).
 
 | **CLI Benefit**                                                                                    | **GUI Benefit**                                                                        |
 | :------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------- |
@@ -16,7 +16,7 @@ For example, **9 merged** `.laz` tiles from **Yosemite National Park** contai
 
 On the other hand, **9 merged** `.laz` tiles from **Buttonwillow Raceway Park** contained **93,526,691 points** and were only **288 MB** in size. When loaded into CloudCompare, this dataset required approximately **8.5 GB of memory**, which is much more manageable on most computers.
 
-The **important takeaway** is that for smaller projects, you can generally do most of the processing within the CloudCompare GUI. **As datasets become larger, you may need to split the work into smaller sections or process the individual tiles separately**.
+The important takeaway is that for smaller projects, you can generally do most of the processing within the CloudCompare GUI. **As datasets become larger, you may need to split the work into smaller sections or process the individual tiles separately**.
 
 <table>
   <tr>
@@ -35,7 +35,7 @@ The **important takeaway** is that for smaller projects, you can generally do mo
   </tr>
 </table>
 
-For this tutorial, the code I have provided **uses CloudCompare's SOR Filter** to **remove statistical outliers**, as shown in the Before and After photos. The values used are relatively conservative and **may have to be changed for different datasets.**
+For this tutorial, the code I have provided uses CloudCompare's SOR Filter to **remove statistical outliers**, as shown in the Before and After photos. The values used are relatively conservative and **may have to be changed for different datasets.**
 
 ***
 
@@ -49,14 +49,14 @@ For this tutorial, the code I have provided **uses CloudCompare's SOR Filter** t
 
 The values used in the SOR script correspond to the following:
 
-- **12** (*nearest neighbors*): Defines the **local neighborhood** around each point that the filter uses for comparison. A higher number looks at a **larger surrounding area**, while a lower number focuses on a **smaller, more immediate area**.
+- **12** (*nearest neighbors*): Defines the **local neighborhood** around each point that the filter uses for comparison. A higher number looks at a **larger surrounding area**, while a lower number focuses on a **smaller area**.
     
-- **2.5** (*standard deviations*): Controls **how far a point can differ from the surrounding points before it is removed**. A **larger value removes fewer points**, while a **smaller value removes more points**.
+- **2.5** (*standard deviations*): Controls **how far a point can differ from the surrounding points before it is removed**. A *larger value removes fewer points*, while a *smaller value removes more points*.
 
 #### Native Execution (*Linux Mint Flatpak*)
 
 > [!NOTE]  
-> These commands are written for the **Flatpak version of CloudCompare** on Linux Mint. If you are using the **native execution** commands, you **may have to remove** the Flatpak/environment lines and replace them with `CloudCompare`.
+> These commands are written for the **Flatpak version of CloudCompare** on Linux Mint. If you are using the **native execution** commands, you *may have to remove* the Flatpak/environment lines and replace them with `CloudCompare`.
 
 ```bash
 mkdir -p 02_data/05_heightmap_sor_filter
@@ -93,7 +93,7 @@ done
 > 
 > The **command below** converts the `.las` back into `.laz`.
 > 
-> ***This only applies to the Docker workflow.***
+> *This only applies to the Docker workflow.*
 
 #### Docker Execution
 
