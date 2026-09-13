@@ -61,8 +61,6 @@
   </tr>
 </table>
 
-***
-
 <div align="center">
   <img src="../06_photos/03e_gdalinfo.webp" 
   alt="GDAL info terminal output"
