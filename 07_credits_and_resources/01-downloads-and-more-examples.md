@@ -1,4 +1,4 @@
-## Map Download - Setup Information
+## Map Downloads and Setup Information
 
 *The BeamNG.drive setup portion of the process is not covered in detail in this guide. Setting up everything in BeamNG.drive can be a process on its own and would make this guide considerably longer.*
 
