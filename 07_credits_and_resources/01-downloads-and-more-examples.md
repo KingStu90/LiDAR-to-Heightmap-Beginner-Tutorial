@@ -222,8 +222,6 @@ Map size: 4096 x 4096
 
 *Aerial Imagery Credit:* **USGS National Map - NAIP Imagery, Natural Color** [**(WMS)**](https://imagery.nationalmap.gov/arcgis/services/USGSNAIPImagery/ImageServer/WMSServer)
 
-***
-
 ## More Examples 
 
 >[!warning]
