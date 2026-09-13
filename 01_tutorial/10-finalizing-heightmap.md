@@ -144,10 +144,10 @@ echo "Finished: $output_file"
 >
 >**Heightmap modifications** may be appropriate for **visual purposes**, such as generating normal maps or other PBR textures.
 
-## Previous Step
+### Previous Step
 
 [**Step 9b: Creating the Heightmap Raster**](09b-creating-the-heightmap.md)  ←
 
-## Next Step
+### Next Step
 
 [**Step 11: Creating the Basemap Raster**](11-creating-the-basemap-cloudcompare.md) →
