@@ -1,4 +1,4 @@
-## Step 13: Isolating Trees
+## Step 13: Creating Tree Placement Map
 
 ### Overview
 
