@@ -120,6 +120,8 @@ All of the software used in the tutorial is listed below and is free to dow
 
 - [**LAStools**](https://rapidlasso.de/downloads/) (*Optional*) - LiDAR processing software with a mix of **free and paid tools**. Alternative method for merging large datasets
 
+- [**Obsidian**](https://obsidian.md/download) - (*Optional*) - Note-taking app, good for storing notes and code 
+
 *Depending on your operating system and what dependencies are installed, you may need to do some troubleshooting to get all the programs working correctly*.
 
 ### Docker Execution
