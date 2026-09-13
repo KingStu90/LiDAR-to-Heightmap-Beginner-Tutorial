@@ -101,10 +101,10 @@ docker run --rm \
   
 **E)** **Higher DPI produces a higher-resolution exported image, with more pixels covering the same area.** This gives the point cloud, which is often denser than the imagery, more detailed color information to sample from. This usually results in a sharper-looking basemap. ***NOTE: There is a limit for the download file size on some servers, and the imagery may be blank if the download exceeds this limit***.
 
-## Previous Step
+### Previous Step
 
 [**Step 1: Downloading Point Cloud Data**](01-downloading-point-cloud-data.md) ←
 
-## Next Step
+### Next Step
 
 [**Step 3: Reprojecting Imagery**](03-reprojecting-imagery.md) →
