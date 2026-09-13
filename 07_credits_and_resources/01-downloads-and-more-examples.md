@@ -53,8 +53,6 @@ The **modified versions** are located under `mapname` > `terrain` > `materialnam
 
 ## Downloadable Maps
 
-***
-
 ### Swing Arm City, Utah
 
 Map size: 8192 x 8192 
