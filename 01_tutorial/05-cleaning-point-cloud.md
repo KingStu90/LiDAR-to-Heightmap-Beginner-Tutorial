@@ -49,7 +49,7 @@ For this tutorial, the code I have provided uses CloudCompare's SOR Filter to **
 
 The values used in the SOR script correspond to the following:
 
-- **12** (*nearest neighbors*): Defines the **local neighborhood** around each point that the filter uses for comparison. A higher number looks at a **larger surrounding area**, while a lower number focuses on a **smaller area**.
+- **12** (*nearest neighbors*): Defines the **local neighborhood** around each point that the filter uses for comparison. A higher number looks at a larger surrounding area, while a lower number focuses on a smaller area.
     
 - **2.5** (*standard deviations*): Controls **how far a point can differ from the surrounding points before it is removed**. A larger value removes fewer points, while a smaller value removes more points.
 
