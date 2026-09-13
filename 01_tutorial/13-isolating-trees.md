@@ -1,4 +1,4 @@
-## Step 13: Creating Tree Placement Map
+## Step 13: Creating the Tree Placement Map
 
 ### Overview
 
