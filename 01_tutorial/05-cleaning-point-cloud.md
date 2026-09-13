@@ -12,9 +12,9 @@
 
 There are **many different methods for cleaning up noisy point cloud data**. This step is very dependent on your dataset. The number of tiles, point density, and amount of available **RAM and virtual memory** can all affect how you process the data.
 
-For example, **9 merged** `.laz` tiles from **Yosemite National Park** contained over **849,648,733 points** and were **5.8 GB** in size. When loaded into CloudCompare, this dataset required **over 46 GB of memory** and caused CloudCompare to crash due to insufficient memory.
+For example, **9 merged** `.laz` tiles from Yosemite National Park contained over **849,648,733 points** and were **5.8 GB** in size. When loaded into CloudCompare, this dataset required **over 46 GB of memory** and caused CloudCompare to crash due to insufficient memory.
 
-On the other hand, **9 merged** `.laz` tiles from **Buttonwillow Raceway Park** contained **93,526,691 points** and were only **288 MB** in size. When loaded into CloudCompare, this dataset required approximately **8.5 GB of memory**, which is much more manageable on most computers.
+On the other hand, **9 merged** `.laz` tiles from Buttonwillow Raceway Park contained **93,526,691 points** and were only **288 MB** in size. When loaded into CloudCompare, this dataset required approximately **8.5 GB of memory**, which is much more manageable on most computers.
 
 The important takeaway is that for smaller projects, you can generally do most of the processing within the CloudCompare GUI. **As datasets become larger, you may need to split the work into smaller sections or process the individual tiles separately**.
 
