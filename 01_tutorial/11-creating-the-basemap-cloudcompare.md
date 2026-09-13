@@ -117,10 +117,10 @@ echo "Finished: basemap_MERGED.tif"
 ./run_pipeline.sh 11b_basemap_merge_tif.sh
 ```
 
-## Previous Step
+### Previous Step
 
 [**Step 10: Finalizing the Heightmap**](10-finalizing-heightmap.md)  ←
 
-## Next Step
+### Next Step
 
 [**Step 12: Finalizing the Basemap**](12-finalizing-basemap.md) →
