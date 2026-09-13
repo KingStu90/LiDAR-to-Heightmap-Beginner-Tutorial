@@ -77,14 +77,14 @@ docker run --rm \
 
 *Once you run this `echo` version, **check the printed preview** to make sure the 12-character slice from the right side of the filename looks correct. Then **swap** `echo mv` for `mv` to actually rename the files.*
 
-## Next Step
+### Next Step
 
 [**Step 2: Downloading Satellite Imagery**](02-downloading-imagery.md) →
 
-## *Skip Colorization Process*
+### *Skip Colorization Process*
 
 [**Step 5: Cleaning Point Cloud**](05-cleaning-point-cloud.md) →
 
-## Project Overview
+### Project Overview
 
 [**README**](../README.md) ←
