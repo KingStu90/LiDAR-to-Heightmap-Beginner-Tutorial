@@ -177,10 +177,10 @@ echo "Finished: trees_MERGED.tif"
 ./run_pipeline.sh 13b_trees_merge_tif.sh
 ```
 
-## Previous Step
+### Previous Step
 
 [**Step 12: Finalizing the Basemap**](12-finalizing-basemap.md)  ←
 
-## Next Step
+### Next Step
 
 [**Step 14: Finalizing the Tree Placement Map**](14-finalizing-tree-placement-map.md) →
