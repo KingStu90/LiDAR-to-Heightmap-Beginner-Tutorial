@@ -171,10 +171,10 @@ echo "Finished: basemap_MERGED.tif"
 ./run_pipeline.sh 99b_basemap_merge_rgb.sh
 ```
 
-## Previous Step
+### Previous Step
 
 [**Step 10: Finalizing the Heightmap**](../01_tutorial/10-finalizing-heightmap.md)  ←
 
-## Next Step
+### Next Step
 
 [**Step 12: Finalizing the Basemap**](../01_tutorial/12-finalizing-basemap.md) →
