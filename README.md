@@ -76,7 +76,7 @@ The repository contains the complete project files used by the tutorial, includi
 - Processing scripts for each stage of the workflow
 - `downloadlist.txt` containing links to the source data used in the tutorial
 - Native execution commands
-- A Docker-based workflow
+- Docker execution commands
 
 You can follow the tutorial using the included `downloadlist.txt` to reproduce the examples, or use the same workflow with your own data. *Depending on the dataset, some steps or settings may need to be adjusted.*
 
