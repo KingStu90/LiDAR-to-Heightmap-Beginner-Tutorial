@@ -84,15 +84,15 @@ done
 ./run_pipeline.sh 09b_heightmap_raster.sh
 ```
 
-## Previous Step
+### Previous Step
 
 [**Step 9a: Merging Point Cloud**](09a-merging-point-cloud.md)  ←
 
-## Next Step
+### Next Step
 
 [**Step 10: Finalizing Heightmap**](10-finalizing-heightmap.md) →
 
-## *Large-Project Alternative Workflow*
+### *Large-Project Alternative Workflow*
 
 [**Step 9c: Merging Individual Raster Tiles**](09c-merging-raster.md) →
 
