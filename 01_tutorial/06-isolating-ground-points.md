@@ -148,15 +148,15 @@ done
 
 -  PDAL has many [**filters**](https://pdal.io/en/stable/stages/filters.html), including a [**CSF**](https://pdal.io/en/stable/stages/filters.csf.html#filters-csf) filter that supports a `where` option. This can be used to control which points are passed to the CSF filter and may provide a way to exclude steep or vertical surfaces. *I have not tested this approach*.
   
-## Previous Step
+### Previous Step
 
 [**Step 5: Cleaning Point Cloud**](05-cleaning-point-cloud.md)  ←
 
-## Next Step
+### Next Step
 
 [**Step 7: Converting from Feet to Meters** (***if needed***)](07-ft-to-m.md) →
 
-## *Dataset Already in Meters?*
+### *Dataset Already in Meters?*
 
 [**Step 8: Scale Point Cloud to 50%**](08-scale-50.md) →
 
