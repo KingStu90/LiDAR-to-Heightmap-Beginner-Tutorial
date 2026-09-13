@@ -1,4 +1,4 @@
-# LiDAR-to-Heightmap Beginner Tutorial
+## LiDAR-to-Heightmap Beginner Tutorial
 
 A beginner-friendly, reproducible workflow for turning **LiDAR data into heightmaps, basemaps, and tree placement maps for BeamNG.drive**.
 
@@ -50,7 +50,7 @@ Additional screenshots and download links for maps can be found [**here**](07_cr
 
 ***
 
-## What This Tutorial Does
+### What This Tutorial Does
 
 This tutorial shows you how to turn LiDAR point-cloud data into **heightmaps, basemaps, and tree placement maps that can serve as a starting point for creating a BeamNG.drive map**.
 
@@ -68,7 +68,7 @@ The tutorial is designed for beginners and introduces the GIS and LiDAR concepts
 
 ***
 
-## Reproducible Workflow
+### Reproducible Workflow
 
 The repository contains the complete project files used by the tutorial, including:
 
@@ -95,7 +95,7 @@ You can follow the tutorial using the included `downloadlist.txt` to reproduce t
 
 ***
 
-## Requirements
+### Requirements
 
 >[!IMPORTANT]
 >All of the steps in the tutorial provide a “**Native Execution**” command which **requires the user to have the program used by that step installed on their PC**.
@@ -154,7 +154,7 @@ Individual processing scripts can then be run through Docker:
 
 ***
 
-## Repository Structure
+### Repository Structure
 
 ```text
 01_tutorial/                 Step-by-step tutorial notes
@@ -191,7 +191,7 @@ dockerfile                   Docker environment
 
 ***
 
-## Feedback & Support
+### Feedback & Support
 
 If you find an issue with the tutorial, have a question, or have feedback on the workflow, I'd be happy to hear from you at <b>kingstuart75@gmail.com</b>.
 
@@ -199,7 +199,7 @@ If you find an issue with the tutorial, have a question, or have feedback on the
 
 If the tutorial helped you out and you'd like to support the project, the easiest way is to **share the link** with someone who might find it useful. You can also [**buy me a coffee**](https://buymeacoffee.com/stuartking).
 
-## License
+### License
 
 This project is licensed under the MIT License. See `LICENSE` for details.
 
