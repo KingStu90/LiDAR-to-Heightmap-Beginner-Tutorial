@@ -93,7 +93,7 @@ echo "Finished: $output_file"
 
 #### 3) Convert from `.tif` to `.png`
 
-- **Outputs the final basemap**. Replace `buttonwillow` with your own name.
+- **Outputs the final basemap**. Replace `FINAL_basemap_buttonwillow.png` with your own name.
 
 ```bash
 #!/bin/bash
