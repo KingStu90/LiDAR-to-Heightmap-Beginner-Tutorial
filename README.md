@@ -98,6 +98,8 @@ You can follow the tutorial using the included `downloadlist.txt` to reproduce t
 
 ### Native Execution
 
+***
+
 The native workflow requires the software used by each step to be installed on your computer.
 
 ***All of the software used in the tutorial is listed below and is free to download.***
@@ -119,6 +121,8 @@ The native workflow requires the software used by each step to be installed on y
 *Depending on your operating system and what dependencies are installed, you may need to do some troubleshooting to get all the programs working correctly*.
 
 ### Docker Execution
+
+***
 
 *The Docker workflow is primarily intended for Linux users. Docker Desktop can run Linux containers on Windows using WSL 2, but this tutorial does not currently provide Windows-specific Docker instructions or test the Docker workflow on Windows.*
 
