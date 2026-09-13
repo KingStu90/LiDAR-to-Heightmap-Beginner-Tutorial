@@ -2,9 +2,8 @@
 
 ### Overview
 
-In this step, we are **isolating the ground** from **non-ground points**. To do this, the [**Cloth Simulation Filter**](https://www.cloudcompare.org/doc/wiki/index.php/CSF_(plugin)) (CSF) tool uses a simulated cloth draped over the inverted point cloud (*Example A*) to determine which points can be classified as ground and non-ground. 
-**For the dataset provided** with this tutorial, the CloudCompare CSF filter does a pretty good job of correctly identifying the ground and non-ground points (**Example B**).<br> 
-However, there are some cases (**Example C**) where the CloudCompare CSF filter **may not work well**, such as areas with very **steep or vertical terrain** where much of the ground can be incorrectly classified as non-ground. The Eureka Dunes (**Example C**) are also a good example of a dataset where the CSF filter is unnecessary and can incorrectly classify ground points as non-ground points.**For the dataset provided** with this tutorial, the CloudCompare CSF filter does a pretty good job of correctly identifying the ground and non-ground points (**Example B**). However, there are some cases (**Example C**) where the CloudCompare CSF filter **may not work well**, such as areas with very **steep or vertical terrain** where much of the ground can be incorrectly classified as non-ground. The Eureka Dunes (**Example C**) are also a good example of a dataset where the CSF filter is unnecessary and **can incorrectly classify ground points as non-ground points**.
+In this step, we are isolating the ground from non-ground points. To do this, the Cloth Simulation Filter (CSF) tool uses a simulated cloth draped over the inverted point cloud (Example A) to determine which points can be classified as ground and non-ground.
+
 <p style="text-align: center;"><strong>Example A</strong></p>
 
 <p align="center">
