@@ -105,7 +105,7 @@ docker run --rm \
 echo "Finished: $output_file"
 ```
 
-### Previous Step:
+### Previous Step
 
 [**Step 13: Creating the Tree Placement Map**](13-isolating-trees.md)  ←
 
