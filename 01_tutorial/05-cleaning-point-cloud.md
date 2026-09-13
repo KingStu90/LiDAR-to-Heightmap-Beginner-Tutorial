@@ -91,10 +91,10 @@ done
 ./run_pipeline.sh 05b_heightmap_las_to_laz.sh
 ```
 
-## Previous Step
+### Previous Step
 
 [**Step 4: Colorizing Point Cloud**](04-colorizing-point-cloud.md) ←
 
-## Next Step
+### Next Step
 
 [**Step 6: Isolating Ground Points**](06-isolating-ground-points.md) →
