@@ -51,10 +51,10 @@ done
 ./run_pipeline.sh 07_heightmap_ft_to_m.sh
 ```
 
-## Previous Step
+### Previous Step
 
 [**Step 6: Isolating Ground Points**](06-isolating-ground-points.md)  ←
 
-## Next Step
+### Next Step
 
 [**Step 8: Scaling Point Cloud to 50%**](08-scale-50.md) →
