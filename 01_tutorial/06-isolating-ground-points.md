@@ -2,8 +2,9 @@
 
 ### Overview
 
-In this step, we are **isolating the ground** from **non-ground points**. To do this, the [**Cloth Simulation Filter**](https://www.cloudcompare.org/doc/wiki/index.php/CSF_(plugin)) (CSF) tool uses a simulated cloth draped over the inverted point cloud (**Example A**) to determine which points can be classified as ground and non-ground. 
-
+In this step, we are **isolating the ground** from **non-ground points**. To do this, the [**Cloth Simulation Filter**](https://www.cloudcompare.org/doc/wiki/index.php/CSF_(plugin)) (CSF) tool uses a simulated cloth draped over the inverted point cloud (*Example A*) to determine which points can be classified as ground and non-ground. 
+**For the dataset provided** with this tutorial, the CloudCompare CSF filter does a pretty good job of correctly identifying the ground and non-ground points (**Example B**).<br> 
+However, there are some cases (**Example C**) where the CloudCompare CSF filter **may not work well**, such as areas with very **steep or vertical terrain** where much of the ground can be incorrectly classified as non-ground. The Eureka Dunes (**Example C**) are also a good example of a dataset where the CSF filter is unnecessary and can incorrectly classify ground points as non-ground points.**For the dataset provided** with this tutorial, the CloudCompare CSF filter does a pretty good job of correctly identifying the ground and non-ground points (**Example B**). However, there are some cases (**Example C**) where the CloudCompare CSF filter **may not work well**, such as areas with very **steep or vertical terrain** where much of the ground can be incorrectly classified as non-ground. The Eureka Dunes (**Example C**) are also a good example of a dataset where the CSF filter is unnecessary and **can incorrectly classify ground points as non-ground points**.
 <p style="text-align: center;"><strong>Example A</strong></p>
 
 <p align="center">
@@ -12,7 +13,8 @@ In this step, we are **isolating the ground** from **non-ground points**. To do 
   <a href="https://ramm.bnu.edu.cn/researchers/wumingzhang/english/default_contributions.htm">Original Contribution by Wuming Zhang</a>
 </p>
 
-**For the dataset provided** with this tutorial, the CloudCompare CSF filter does a pretty good job of correctly identifying the ground and non-ground points (**Example B**). However, there are some cases (**Example C**) where the CloudCompare CSF filter **may not work well**, such as areas with very **steep or vertical terrain** where much of the ground can be incorrectly classified as non-ground. The Eureka Dunes (**Example C**) are also a good example of a dataset where the CSF filter is unnecessary and **can incorrectly classify ground points as non-ground points**.
+**For the dataset provided** with this tutorial, the CloudCompare CSF filter does a pretty good job of correctly identifying the ground and non-ground points (*Example B*).<br> 
+However, there are some cases (*Example C*) where the CloudCompare CSF filter **may not work well**, such as areas with very **steep or vertical terrain** where much of the ground can be incorrectly classified as non-ground. The Eureka Dunes (*Example C*) are also a good example of a dataset where the CSF filter is unnecessary and **can incorrectly classify ground points as non-ground points**.
 
 <table>
   <tr>
@@ -77,7 +79,7 @@ In this step, we are **isolating the ground** from **non-ground points**. To do 
 | `CLASS_THRESHOLD`  | `0.5` (*default*)       | Distance used to classify ground points       |
 
 > [!NOTE]
-> `CLOTH_RESOLUTION` and `CLASS_THRESHOLD` values **are dependent on the unit of measurement**. The **default values are set for meters**, so for datasets using feet, you will need to **convert the values to feet**.
+> `CLOTH_RESOLUTION` and `CLASS_THRESHOLD` values are dependent on the unit of measurement. The **default values are set for meters**, so for datasets using feet, you will need to **convert the values to feet**.
 > 
 >*1 meter = 3.28 feet*
 >
@@ -148,7 +150,7 @@ done
 
 - CloudCompare [**Scalar Fields/ Filter by Value**](https://www.cloudcompare.org/doc/wiki/index.php/Scalar_fields%5CFilter_by_Value)
   
-	-  **Return Number**, **Number of Returns**, **Classification** are some useful scalar fields
+	-  Return Number, Number of Returns, Classification are some useful scalar fields
 	  
 	- `Edit > Scalar Fields > Filter by Value`
 
