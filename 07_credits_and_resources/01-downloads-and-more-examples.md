@@ -337,15 +337,15 @@ Map size: 2048 x 2048
 
 ***
 
-## Project Overview
+### Project Overview
 
 [**README**](../README.md) ←
 
-## LiDAR Data and Other Resources
+### LiDAR Data and Other Resources
 
 [**Useful Resources**](02-lidar-data-and-other-resources.md) →
 
-## Citations and Attribution
+### Citations and Attribution
 
 [**Sources**](03-citations-and-attribution.md) →
 
