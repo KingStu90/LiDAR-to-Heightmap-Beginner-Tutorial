@@ -149,7 +149,7 @@ done
 
 - CloudCompare [**Scalar Fields/ Filter by Value**](https://www.cloudcompare.org/doc/wiki/index.php/Scalar_fields%5CFilter_by_Value)
   
-	-  Return Number, Number of Returns, Classification are some useful scalar fields
+	-  *Return Number*, *Number of Returns*, *Classification* are some useful scalar fields
 	  
 	- `Edit > Scalar Fields > Filter by Value`
 
