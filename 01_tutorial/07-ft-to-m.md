@@ -2,11 +2,11 @@
 
 ### Overview
 
-- Since [**January 1, 2023**](https://www.nist.gov/pml/us-surveyfoot), the **U.S. survey foot has been obsolete**. New datasets should use the international foot: `1 ft = 0.3048 m`.
+- Since [**January 1, 2023**](https://www.nist.gov/pml/us-surveyfoot), the **U.S. survey foot has been obsolete**. New datasets are most likely to use the international foot: `1 ft = 0.3048 m`.
   
 - Older datasets may still use the **U.S. survey foot**: `1 ft = 0.304800609601219 m`.
   
-- **For this tutorial**, the provided data is in **U.S. survey feet**, while BeamNG.drive uses **meters**.
+- **For this tutorial**, the provided data is in U.S. survey feet, while **BeamNG.drive uses meters**.
   
 - To find out what unit of measurement your dataset is in, use `pdal info` (*covered in Step 2*).
 
