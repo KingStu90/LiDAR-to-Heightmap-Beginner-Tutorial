@@ -105,7 +105,7 @@ The native workflow requires the software used by each step to be installed on y
 
 - [**QGIS**](https://www.qgis.org/download/) (*Recommended*) - Desktop GIS and mapping software
 
-- [**GIMP**](https://www.gimp.org/downloads/) or **Photoshop** - (*Highly Recommended*) - Image editor 
+- [**GIMP**](https://www.gimp.org/downloads/) or **Photoshop** (*Highly Recommended*) - Image editor 
 
 - [**LAStools**](https://rapidlasso.de/downloads/) (*Optional*) - LiDAR processing software with a mix of **free and paid tools**. Alternative method for merging large datasets
 
