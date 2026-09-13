@@ -60,14 +60,14 @@
 
 [**https://www.maphustle.co.nz/blogs/pc-blender**](https://www.maphustle.co.nz/blogs/pc-blender)
 
-## Project Overview
+### Project Overview
 
 [**README**](../README.md) ←
 
-## Map Downloads & More Examples 
+### Map Downloads & More Examples 
 
 [**Final Results**](01-downloads-and-more-examples.md) →
 
-## Citations and Attribution
+### Citations and Attribution
 
 [**Sources**](03-citations-and-attribution.md) →
