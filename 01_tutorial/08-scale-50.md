@@ -123,10 +123,10 @@ done
 ./run_pipeline.sh 08_heightmap_scale_50.sh
 ```
 
-## Previous Step
+### Previous Step
 
 [**Step 7: Converting from Feet to Meters** (***if needed***)](07-ft-to-m.md)  ←
 
-## Next Step
+### Next Step
 
 [**Step 9a: Merging Point Cloud**](09a-merging-point-cloud.md) →
