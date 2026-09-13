@@ -13,6 +13,8 @@ The **modified versions** are located under `mapname` > `terrain` > `materialnam
 >
 >If you find the maps or this tutorial useful, please consider sharing the link with others who might find it helpful. **A link back to this tutorial is always appreciated!**
 
+***
+
 ### BeamNG.drive Import Settings
 
 >[!WARNING]  
