@@ -8,7 +8,7 @@
   
 - The filtered points are converted into raster tiles to create a **tree placement map**. In BeamNG.drive we can use this to place trees with the World Editor [**Biome Tool**](https://documentation.beamng.com/world_editor/tools/biome_tool/).
   
-The filtering process **removes most of the points from the original tile**, so the **remaining points might occupy only a small portion of the original extent** (*as shown with Buttonwillow*). When the raster is created from only the filtered points, the **resulting raster is smaller than the original tile**. With this new method the **original tile extent is preserved** during the rasterization process so the same crop coordinates can be used later to keep the tree placement map aligned with the heightmap and basemap.
+The filtering process **removes most of the points from the original tile**, so the remaining points might occupy only a small portion of the original extent (*as shown with Buttonwillow*). When the raster is created from only the filtered points, the **resulting raster is smaller than the original tile**. With this new method the **original tile extent is preserved** during the rasterization process so the same crop coordinates can be used later to keep the tree placement map aligned with the heightmap and basemap.
 
 <div align="center">
   <img src="../06_photos/13e_trees.webp" 
