@@ -47,8 +47,6 @@ The **modified versions** are located under `mapname` > `terrain` > `materialnam
   style="max-width: 100%; height: auto;">
 </div>
 
-***
-
 ## Downloadable Maps
 
 ### Swing Arm City, Utah
