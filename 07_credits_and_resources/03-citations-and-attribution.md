@@ -84,14 +84,14 @@ Tennessee Department of Transportation Aerial Surveys, Tennessee orthoimagery, a
 
 United States Department of Agriculture, Farm Production and Conservation Business Center, Geospatial Enterprise Operations; Hawaii Statewide GIS Program, Vivid 2022 imagery, accessed July 5, 2026 at URL [**https://geodata.hawaii.gov/arcgis/rest/services/SoH_Imagery/Vivid_2022/ImageServer**](https://geodata.hawaii.gov/arcgis/rest/services/SoH_Imagery/Vivid_2022/ImageServer)
 
-## Project Overview
+### Project Overview
 
 [**README**](../README.md) ←
 
-## Map Downloads & More Examples 
+### Map Downloads & More Examples 
 
 [**Final Results**](01-downloads-and-more-examples.md) →
 
-## LiDAR Data and Other Resources
+### LiDAR Data and Other Resources
 
 [**Useful Resources**](02-lidar-data-and-other-resources.md) →
