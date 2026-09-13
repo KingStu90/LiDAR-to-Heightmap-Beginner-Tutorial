@@ -89,6 +89,11 @@ You can follow the tutorial using the included `downloadlist.txt` to reproduce t
 
 ## Requirements
 
+>[!IMPORTANT]
+>All of the steps in the tutorial provide a “**Native Execution**” command which **requires the user to have the program used by that step installed on their PC**.
+>
+>There is also a “**Docker Execution**” command which requires **Docker**. The advantage of using Docker is that the programs and dependencies used by the Docker workflow are installed in a self-contained environment, **so you don’t have to install and configure each program separately**.
+
 ### Native Execution
 
 The native workflow requires the software used by each step to be installed on your computer.
@@ -101,21 +106,24 @@ The native workflow requires the software used by each step to be installed on y
 
 - [**GDAL**](https://gdal.org/en/stable/download.html) (*Required*) - Geospatial raster and vector data library
 
-- [**Miniconda**](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) (*Highly Recommended)* - Used to install the dependencies required by PDAL and GDAL 
+- [**Miniconda**](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) (*Highly Recommended)* - Recommended package manager for installing PDAL, GDAL, and their dependencies 
 
 - [**QGIS**](https://www.qgis.org/download/) (*Recommended*) - Desktop GIS and mapping software
 
-- [**GIMP**](https://www.gimp.org/downloads/) or **Photoshop** (*Highly Recommended*) - Image editor 
+- [**GIMP**](https://www.gimp.org/downloads/) - (*Highly Recommended*) - Image editor 
 
 - [**LAStools**](https://rapidlasso.de/downloads/) (*Optional*) - LiDAR processing software with a mix of **free and paid tools**. Alternative method for merging large datasets
 
-*Depending on your operating system and installed dependencies, you may need to do some troubleshooting to get all the programs working correctly.*
+*Depending on your operating system and what dependencies are installed, you may need to do some troubleshooting to get all the programs working correctly*.
 
 ### Docker Execution
 
+*The Docker workflow is primarily intended for Linux users. Docker Desktop can run Linux containers on Windows using WSL 2, but this tutorial does not currently provide Windows-specific Docker instructions or test the Docker workflow on Windows.*
+
 The repository also includes a Docker workflow that packages the required processing environment into a container.
 
-**Docker** - [**Download link**](https://www.docker.com/get-started/)
+If you want to use the Docker workflow, install Docker first:
+[**Download Docker**](https://www.docker.com/get-started/)
 
 After installing Docker, build the image from the project directory:
 
