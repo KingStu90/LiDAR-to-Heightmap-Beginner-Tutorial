@@ -128,8 +128,6 @@ echo "Finished: $output_file"
 
 #### 3) Convert `.tif` to `.png`
 
-<br>
-
 > [!IMPORTANT]
 > If you are following my process of scaling the point cloud to 50%, the **X, Y, and Z dimensions are all reduced by 50%**.
 >
