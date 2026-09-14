@@ -4,7 +4,7 @@
 
 - This step combines several GDAL processing operations.
   
-- Having access to **QGIS** and **GIMP** can make this process easier.
+- Having access to QGIS and GIMP can make this process easier.
   
 - The values used throughout the commands are **specific to this tutorial example** and BeamNG.drive.
   
