@@ -63,8 +63,6 @@ With this new method the **original tile extent is preserved** during the raster
 
 ### Instructions
 
-<br>
-
 #### 13a_pipeline_trees_filter.json
 
 <br>
