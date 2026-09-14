@@ -2,9 +2,9 @@
 
 ### Overview
 
-This step uses the color applied to the point cloud in Step 4 to **create the basemap raster**.
+This step uses the color applied to the point cloud in *Step 4* to **create the basemap raster**.
 
-***While writing this tutorial, I found a better approach for creating the basemap***. The original version of this tutorial used a **PDAL pipeline** to create the raster, but in this tutorial we’ll use **CloudCompare Rasterize tool** instead.
+*While writing this tutorial, I found a better approach for creating the basemap*. The original version of this tutorial used a **PDAL pipeline** to create the raster, but in this tutorial we’ll use **CloudCompare Rasterize tool** instead.
 
 This is a good example of why this tutorial is **not intended to demonstrate the one and only way to process LiDAR data**. There are many different tools and methods that can be used to accomplish the same task, and some approaches may work better than others depending on the dataset.
 
@@ -43,7 +43,9 @@ As shown in the photos below, **PDAL IDW** interpolation **is not able to fill 
 #### Step 11a: Creating the Basemap Raster via *CloudCompare*
 
 >[!NOTE]
->We are using `GRID_STEP 0.5` to create a **higher-resolution intermediate raster** before **downsampling in Step 12**. This allows more of the color variation from the point cloud to be represented before the final resampling step. When resampled with Lanczos, **this additional detail can then be used when calculating the final pixels, generally producing a sharper-looking basemap**.
+>We are using `GRID_STEP 0.5` to create a **higher-resolution intermediate raster** before **downsampling in Step 12**.
+>
+>This allows more of the color variation from the point cloud to be represented before the final resampling step. When resampled with Lanczos, **this additional detail can then be used when calculating the final pixels, generally producing a sharper-looking basemap**.
 
 #### Native Execution (*Linux Mint Flatpak*)
 
