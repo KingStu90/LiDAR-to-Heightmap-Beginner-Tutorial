@@ -3,7 +3,6 @@
 *The BeamNG.drive setup portion of the process is not covered in detail in this guide. Setting up everything in BeamNG.drive can be a process on its own and would make this guide considerably longer.*
 
 - Included are the **original** and the **modified versions** of the heightmap and basemap, along with the tree placement map where applicable.
-
  - The **modified versions** are located under `mapname` > `terrain` > `materialname`.
 
  **Download Links:** [**Google Drive**](https://drive.google.com/drive/folders/1HLpHrmBgWncCEFOW96CuQhYWVRa4fMVH?usp=drive_link)
