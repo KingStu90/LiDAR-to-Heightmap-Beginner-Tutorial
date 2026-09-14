@@ -2,8 +2,6 @@
 
 ### LiDAR Data Download Sources
 
-<br>
-
 - **USGS 3DEP LidarExplorer**
 
   - [**https://apps.nationalmap.gov/lidar-explorer/#/**](https://apps.nationalmap.gov/lidar-explorer/#/)
@@ -50,8 +48,6 @@
 
 ### Other Resources
 
-<br>
-
 - List of Federal, State, County, City, etc ArcGIS Servers **Curated by Joseph Elfelt**
 
   - [**https://mappingsupport.com/p/surf_gis/list-federal-state-county-city-GIS-servers.pdf**](https://mappingsupport.com/p/surf_gis/list-federal-state-county-city-GIS-servers.pdf)
@@ -59,8 +55,6 @@
 ***
 
 ### Tutorials & Guides
-
-<br>
 
 ***These are some of the tutorials and guides that helped me get started building this project.***
 
