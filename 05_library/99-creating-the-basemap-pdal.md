@@ -78,7 +78,7 @@ Look for the **Red**, **Green**, and **Blue** values in the output. The `ma
 
 <br>
 
-- Choose **1 Tile** if you have limited RAM. Choose **4 Tiles** to process **four tiles in parallel**, which can significantly increase memory usage.
+- Choose **1 Tile** if you have limited RAM. Choose **4 Tiles** to process **four tiles in parallel**, which increases memory usage.
 
 <br>
 
