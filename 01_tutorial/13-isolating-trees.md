@@ -90,7 +90,7 @@ With this new method the **original tile extent is preserved** during the raster
 | `filters.voxelcentroidnearestneighbor` | `cell: 20.0`                | **Yes**\*       |
 
 >[!NOTE]
->The settings that are **unit-dependent**\* are given in *feet*. If your original dataset uses *meters*, multiply the values given by `0.3048` to convert them to meters.
+>The settings that are **unit-dependent**\* are given in feet. If your original dataset uses meters, multiply the values given by `0.3048` to **convert them to meters**.
 
 ***
 
