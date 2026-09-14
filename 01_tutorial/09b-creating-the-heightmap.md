@@ -55,11 +55,7 @@ It is possible to replace the *nodata* areas with the **minimum elevation** with
 
 ***
 
-<br>
-
-**CloudCompare Interpolate CLI Command**: `EMPTY_FILL INTERP`
-
-<br>
+- CloudCompare Interpolate CLI Command: `EMPTY_FILL INTERP`
 
 - For creating the raster tiles for **heightmaps** , the remaining settings are **recommended defaults** for this workflow and should not normally need to be changed.
 
