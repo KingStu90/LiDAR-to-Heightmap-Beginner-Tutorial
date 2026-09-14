@@ -104,6 +104,8 @@ You can follow the tutorial using the included `downloadlist.txt` to reproduce t
 >
 >There is also a “**Docker Execution**” command which requires **Docker**. The advantage of using Docker is that the programs and dependencies used by the Docker workflow are installed in a self-contained environment, **so you don’t have to install and configure each program separately**.
 
+<br>
+
 ### Native Execution
 
 All of the software used in the tutorial is listed below and is free to download.
@@ -125,6 +127,8 @@ All of the software used in the tutorial is listed below and is free to dow
 - [**Obsidian**](https://obsidian.md/download) - (*Optional*) - Note-taking app, good for storing notes and code 
 
 *Depending on your operating system and what dependencies are installed, you may need to do some troubleshooting to get all the programs working correctly*.
+
+<br>
 
 ### Docker Execution
 
