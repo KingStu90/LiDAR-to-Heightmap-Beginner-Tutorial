@@ -14,6 +14,8 @@
 
 ### Instructions
 
+<br>
+
 ***If running GDAL natively, remove the following Docker-specific code from each command:***
 
 ```bash
@@ -29,6 +31,8 @@ docker run --rm \
 ***
 
 #### 1) Cropping the Heightmap
+
+<br>
 
 - *`heightmap_MERGED.tif` when opened in GIMP may be a blank canvas.*
 
@@ -102,6 +106,8 @@ docker run --rm \
 
 **B) Convert to 16-Bit**
 
+<br>
+
 ```bash
 #!/bin/bash
 input_file="02_data/10_final_heightmap/heightmap_MERGED_CROP.tif"
@@ -128,6 +134,8 @@ echo "Finished: $output_file"
 
 #### 3) Convert `.tif` to `.png`
 
+<br>
+
 > [!IMPORTANT]
 > If you are following my process of scaling the point cloud to 50%, the **X, Y, and Z dimensions are all reduced by 50%**.
 >
@@ -135,6 +143,8 @@ echo "Finished: $output_file"
 >
 >*Scaled Height (50%) = 9.457 m*<br>
 >*Actual Height (2x) = 18.914 m*
+
+<br>
 
 - **Outputs the final heightmap**. Replace `FINAL_heightmap_buttonwillow_h18.914` with your own name.
 
