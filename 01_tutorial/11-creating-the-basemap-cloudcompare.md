@@ -89,7 +89,7 @@ done
 
 #### Step 11b: Merging the Basemap
 
-For merging **imagery raster tiles**, the following settings are **recommended defaults** for this workflow and should not normally need to be changed.
+- For merging **imagery raster tiles**, the following settings are **recommended defaults** for this workflow and should not normally need to be changed.
 
 #### Native Execution
 
