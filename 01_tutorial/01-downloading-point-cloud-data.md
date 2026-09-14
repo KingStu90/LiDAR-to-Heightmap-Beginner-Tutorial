@@ -6,6 +6,8 @@ Provided with this project is a `downloadlist.txt` file from the [**U.S. Geologi
 
 While the USGS covers much of the United States, **additional LiDAR datasets** may be available through the individual states' LiDAR [**portals**](../07_credits_and_resources/02-lidar-data-and-other-resources.md).
 
+<br>
+
 >[!TIP]
 >*First project recommendation:* The [**Netherlands**](../07_credits_and_resources/02-lidar-data-and-other-resources.md) provides relatively consistent LiDAR datasets, and the datasets I used already had color information included in the point cloud.<br> 
 >Imagery is also available through Web Map Services (WMS) in multiple coordinate reference systems (CRS), making it easy to color point clouds.
@@ -13,6 +15,8 @@ While the USGS covers much of the United States, **additional LiDAR datasets** m
 ***
 
 ### Instructions
+
+<br>
 
 <table>
   <tr>
@@ -30,6 +34,8 @@ While the USGS covers much of the United States, **additional LiDAR datasets** m
     </td>
   </tr>
 </table>
+
+<br>
 
 **A)** Download the `downloadlist.txt` file from **USGS LidarExplorer**.
 
