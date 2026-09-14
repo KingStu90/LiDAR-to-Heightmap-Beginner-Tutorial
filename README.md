@@ -143,7 +143,7 @@ After installing Docker, build the image from the project directory:
 docker build -t lidar-pipeline .
 ```
 
-<br><br>
+<br>
 
 Then make the pipeline script executable:
 
@@ -151,7 +151,7 @@ Then make the pipeline script executable:
 chmod +x run_pipeline.sh
 ```
 
-<br><br>
+<br>
 
 Individual processing scripts can then be run through Docker:
 
@@ -159,7 +159,7 @@ Individual processing scripts can then be run through Docker:
 ./run_pipeline.sh 01_download.sh
 ```
 
-<br><br>
+<br>
 
 >[!NOTE]
 >To run the 'Docker Execution' commands **with your own project data**, edit the `.sh` text files found in the `03_scripts` directory.
