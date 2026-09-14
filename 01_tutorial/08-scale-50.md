@@ -25,7 +25,7 @@ One of the **main issues** with my first track made from LiDAR data was that the
   </tr>
 </table>
 
-Especially for a race track, **the most important thing to me was keeping the original surface camber and elevation changes**. After a lot of testing with different rasterization methods, noise cleaning/filtering, scaling, etc.
+Especially for a race track, **the most important thing to me was keeping the original surface camber and elevation changes**. After a lot of testing with different *rasterization methods, noise cleaning/filtering, scaling, etc*.
 
 I found that the method that worked best for getting a ready-to-drive heightmap into BeamNG.drive was to scale the point cloud **down to 50% in CloudCompare** before generating the heightmap, and then **scale the resulting heightmap back up** by the same amount in BeamNG.drive via `Meters-per-Pixels`.
 
