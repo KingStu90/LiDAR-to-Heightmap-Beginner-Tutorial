@@ -17,7 +17,7 @@ folder = Path(__file__).resolve().parent
 tiles = []
 
 # ---------------------------------------------------------
-# Read every LAZ file and get its lower-left coordinates
+# Read every .laz file and get its lower-left coordinates
 # ---------------------------------------------------------
 
 for file in folder.glob("*.laz"):
@@ -31,7 +31,7 @@ for file in folder.glob("*.laz"):
 
 
 if not tiles:
-    print("No LAZ files found.")
+    print("No .laz files found.")
     raise SystemExit
 
 
