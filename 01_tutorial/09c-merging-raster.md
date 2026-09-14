@@ -2,7 +2,7 @@
 
 ### Overview
 
-As mentioned earlier in the tutorial, it is **safer to merge the point clouds first** and create a raster from the single, merged point cloud.  However, this is not always possible when working with **very dense point clouds** or projects covering a **large area**.
+As mentioned earlier in the tutorial, it is **safer to merge the point clouds first** and create a raster from the single, merged point cloud.  However, this is not always possible when working with very dense point clouds or projects covering a large area.
 
 ***
 
