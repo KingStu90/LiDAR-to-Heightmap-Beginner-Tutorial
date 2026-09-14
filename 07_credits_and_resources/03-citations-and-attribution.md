@@ -76,6 +76,8 @@ Washington Geological Survey, 2025, Mason County Refresh24 2025 project \[lidar 
 
 U.S. Geological Survey, USGS NAIP Imagery, accessed July 28, 2026 at URL [**https://imagery.nationalmap.gov/arcgis/services/USGSNAIPImagery/ImageServer/WMSServer**](https://imagery.nationalmap.gov/arcgis/services/USGSNAIPImagery/ImageServer/WMSServer)
 
+<br>
+
 ### Screenshots - Data Sources
 
 ***
