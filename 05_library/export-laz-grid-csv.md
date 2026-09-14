@@ -1,3 +1,5 @@
+## Export .laz Tile Grid
+
 A Python script that reads LAZ files from a folder, determines their spatial positions, organizes them into an Easting/Northing grid, and exports the resulting tile layout as a CSV.
 
 Helpful for seeing what tiles you have download/missing.
