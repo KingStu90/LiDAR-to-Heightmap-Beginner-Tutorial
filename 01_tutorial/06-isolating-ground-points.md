@@ -16,6 +16,8 @@ In this step, we are isolating the **ground** from **non-ground points**. To do 
 
 However, there are some cases (*Example C*) where the CloudCompare CSF filter **may not work well**, such as areas with very **steep or vertical terrain** where much of the ground can be incorrectly classified as non-ground. The Eureka Dunes (*Example C*) are also a good example of a dataset where the CSF filter is unnecessary and **can incorrectly classify ground points as non-ground points**.
 
+<br>
+
 <table>
   <tr>
     <th colspan="2">Example B</th>
@@ -60,6 +62,8 @@ However, there are some cases (*Example C*) where the CloudCompare CSF filter **
   </tr>
 </table>
 
+<br>
+
 ***
 
 ### Instructions
@@ -70,6 +74,8 @@ However, there are some cases (*Example C*) where the CloudCompare CSF filter **
 
 ***
 
+<br>
+
 | Setting            | Options / Value         | Description                                   |
 | ------------------ | ----------------------- | --------------------------------------------- |
 | `SCENES`           | `FLAT` `RELIEF` `SLOPE` | Selects the type of terrain                   |
@@ -77,6 +83,8 @@ However, there are some cases (*Example C*) where the CloudCompare CSF filter **
 | `CLOTH_RESOLUTION` | `2.00` (*default*)      | Controls the cloth grid resolution            |
 | `MAX_ITERATION`    | `500` (*default*)       | Maximum number of cloth simulation iterations |
 | `CLASS_THRESHOLD`  | `0.5` (*default*)       | Distance used to classify ground points       |
+
+<br>
 
 > [!NOTE]
 > `CLOTH_RESOLUTION` and `CLASS_THRESHOLD` values are dependent on the unit of measurement. The **default values are set for meters**, so for datasets using feet, you will need to **convert the values to feet**.
@@ -128,6 +136,8 @@ done
 ```bash
 ./run_pipeline.sh 06a_heightmap_csf_filter.sh
 ```
+
+<br>
 
 >[!WARNING]
 >The **command below** converts the `.las` back into `.laz`.
