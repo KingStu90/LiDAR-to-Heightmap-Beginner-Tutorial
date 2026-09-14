@@ -13,6 +13,8 @@
 >[!NOTE]
 >The script works with either a single imagery tile or multiple individual tiles downloaded from QGIS.
 
+<br>
+
 <table>
   <tr>
     <th colspan="2">Example A</th>
@@ -61,14 +63,20 @@
   </tr>
 </table>
 
+<br>
+
 <div align="center">
   <img src="../06_photos/03e_gdalinfo.webp" 
   alt="GDAL info terminal output"
   style="max-width: 60%; height: auto;">
 </div>
 
+<br>
+
 >[!NOTE]
 >`gdalinfo` **is essentially the GDAL equivalent of** `pdal info`, but for raster data. It can be used to inspect information about a raster file, including its CRS, dimensions, resolution, bands, and other metadata.
+
+<br>
 
 #### GDAL Info Native Execution 
 
