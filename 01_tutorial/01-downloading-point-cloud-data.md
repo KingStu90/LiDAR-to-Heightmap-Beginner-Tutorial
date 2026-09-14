@@ -45,6 +45,8 @@ While the USGS covers much of the United States, **additional LiDAR datasets** m
 
 **D)** The `downloadlist.txt` file should be **saved in** `04_resources`.
 
+<br>
+
 > [!IMPORTANT]
 > **E)** This entire workflow is set up so all the **commands are run from the project root** `lidar-to-heightmap-tutorial`.
 
