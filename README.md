@@ -131,19 +131,19 @@ All of the software used in the tutorial is listed below and is free to dow
 If you want to use the Docker workflow, install Docker first:
 [**Download Docker**](https://www.docker.com/get-started/)
 
-After installing Docker, build the image from the project directory:
+- After installing Docker, build the image from the project directory:
 
 ```bash
 docker build -t lidar-pipeline .
 ```
 
-Then make the pipeline script executable:
+- Then make the pipeline script executable:
 
 ```bash
 chmod +x run_pipeline.sh
 ```
 
-Individual processing scripts can then be run through Docker:
+- Individual processing scripts can then be run through Docker:
 
 ```bash
 ./run_pipeline.sh 01_download.sh
