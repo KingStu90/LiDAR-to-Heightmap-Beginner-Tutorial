@@ -8,6 +8,8 @@ As mentioned earlier in the tutorial, it is **safer to merge the point clouds fi
 
 ### Instructions
 
+<br>
+
 - For merging **elevation data / heightmap** raster tiles, the following settings are **recommended defaults** for this workflow and should not normally need to be changed.
 
 #### Native Execution
