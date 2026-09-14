@@ -40,8 +40,6 @@
 >
 >**This process will still output "completed" `.laz` files even if the imagery and point cloud data are misaligned.** Depending on the workflow of later processes, you may not be able to colorize the point cloud later if its spatial information has been lost or overwritten.
 
-<br>
-
 #### Native Execution 
 
 ```bash
