@@ -28,9 +28,9 @@ docker run --rm \
 
 #### 1) Cropping the Heightmap
 
-*`heightmap_MERGED.tif` when opened in GIMP may be a blank canvas.*
+- *`heightmap_MERGED.tif` when opened in GIMP may be a blank canvas.*
 
-`Color > Auto > Stretch Contrast`
+  - `Color > Auto > Stretch Contrast`
 
 <div style="text-align: center;">
   <img src="../06_photos/10a_crop_extent_gimp.webp" 
