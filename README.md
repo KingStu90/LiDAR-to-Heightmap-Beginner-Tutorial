@@ -8,6 +8,8 @@ A beginner-friendly, reproducible workflow for turning **LiDAR data into heightm
 
 [**Start the tutorial**](01_tutorial/01-downloading-point-cloud-data.md) →
 
+<br>
+
 <table>
   <thead>
     <tr>
@@ -86,6 +88,8 @@ You can follow the tutorial using the included `downloadlist.txt` to reproduce t
 >**Point cloud** in this tutorial refers to `.laz` or `.las` files.
 >
 >**Imagery** or **raster** refers to `.tif`, `.tiff`, or `.geotiff` files.
+
+<br>
 
 <div align="center">
   <img
