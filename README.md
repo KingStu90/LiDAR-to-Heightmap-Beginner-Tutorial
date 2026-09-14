@@ -54,6 +54,8 @@ Additional screenshots and download links for maps can be found [**here**](07_cr
   </tbody>
 </table>
 
+<br>
+
 ***
 
 ### What This Tutorial Does
@@ -102,6 +104,8 @@ You can follow the tutorial using the included `downloadlist.txt` to reproduce t
     style="max-width: 100%; height: auto;"
   >
 </div>
+
+<br>
 
 ***
 
