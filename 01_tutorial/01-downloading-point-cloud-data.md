@@ -81,8 +81,6 @@ wget -v -c -nc \
 
 ####  *(Optional)* Shorten File Names
 
-<br>
-
 - Once you run this `echo` version, **check the printed preview** to make sure the 12-character slice from the right side of the filename looks correct. Then **swap** `echo mv` for `mv` to actually rename the files.
 
 ```bash
