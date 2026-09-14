@@ -66,8 +66,6 @@ However, there are some cases (*Example C*) where the CloudCompare CSF filter **
 
 ### Instructions
 
-<br>
-
 #### CloudCompare GUI 
 
 -  `Plugins > CSF Filter`
