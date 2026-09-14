@@ -10,9 +10,9 @@
 
 ### Instructions
 
-#### 1) Scaling the Tree Placement Map
-
 <br>
+
+#### 1) Scaling the Tree Placement Map
 
 - For BeamNG.drive, the Tree Placement Map should be resized with `outsize` to the \***same dimensions**\* as `heightmap_MERGED.tif` from *Step 10*.
 
