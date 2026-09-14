@@ -26,7 +26,8 @@ This made the track undrivable with a direct-drive wheel **without manually plac
   </tr>
 </table>
 
-Especially for a race track, **the most important thing to me was keeping the original surface camber and elevation changes**. After a lot of testing with different rasterization methods, noise cleaning/filtering, scaling, etc.<br> 
+Especially for a race track, **the most important thing to me was keeping the original surface camber and elevation changes**. After a lot of testing with different rasterization methods, noise cleaning/filtering, scaling, etc.
+
 I found that the method that worked best for getting a ready-to-drive heightmap into BeamNG.drive was to scale the point cloud **down to 50% in CloudCompare** before generating the heightmap, and then **scale the resulting heightmap back up** by the same amount in BeamNG.drive via `Meters-per-Pixels`.<br>
 When the heightmap is scaled back up in BeamNG.drive, the elevation changes are spread across a wider area, making them more gradual (*Example B*).
 
