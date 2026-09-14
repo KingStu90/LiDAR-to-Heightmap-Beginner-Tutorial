@@ -50,6 +50,8 @@ While the USGS covers much of the United States, **additional LiDAR datasets** m
 > [!IMPORTANT]
 > **E)** This entire workflow is set up so all the **commands are run from the project root** `lidar-to-heightmap-tutorial`.
 
+<br>
+
 ***
 
 <br>
@@ -74,6 +76,8 @@ wget -v -c -nc \
 ```
 
 ***
+
+<br>
 
 ####  *(Optional)* Shorten File Names
 
