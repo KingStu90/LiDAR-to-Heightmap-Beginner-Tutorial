@@ -40,13 +40,9 @@
 | `t_terrain_base_ao.png`  | Ambient occlusion  | Grayscale |   8-bit   |
 |  `t_terrain_base_r.png`  | Surface roughness  | Grayscale |   8-bit   |
 
-<br>
-
 - All the `t_terrain_base_` files should be the **same dimension** as the **basemap**
 
 - No **Alpha Channels**
-
-<br>
 
 | Meters Per Pixel | Heightmap Dimension | Tree Placement Map Dimension | Basemap Dimension |
 | :--------------: | :-----------------: | :--------------------------: | :---------------: |
