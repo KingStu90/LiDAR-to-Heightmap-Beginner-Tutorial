@@ -62,6 +62,8 @@ The values used in the SOR script correspond to the following:
     
 - **2.5** (*standard deviations*): Controls **how far a point can differ from the surrounding points before it is removed**. A larger value removes fewer points, while a smaller value removes more points.
 
+<br>
+
 > [!NOTE]  
 > These commands are written for the **Flatpak version of CloudCompare** on Linux Mint. If you are using the **native execution** commands, you ***may have to remove*** the Flatpak/environment lines and replace them with `CloudCompare`.
 
