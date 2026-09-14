@@ -21,10 +21,14 @@
 
 ### BeamNG.drive Import Settings
 
+<br>
+
 >[!WARNING]  
 >The original heightmap **should not be resized or resampled in a image editor** if it is being used as the elevation data. Changes to the pixel values can alter the resulting terrain.
 >
 >**Heightmap modifications** may be appropriate for **visual purposes**, such as generating normal maps or other PBR textures.
+
+<br>
 
 |           File           |      Purpose       |   Color   | Bit Depth |
 | :----------------------: | :----------------: | :-------: | :-------: |
@@ -36,15 +40,21 @@
 | `t_terrain_base_ao.png`  | Ambient occlusion  | Grayscale |   8-bit   |
 |  `t_terrain_base_r.png`  | Surface roughness  | Grayscale |   8-bit   |
 
+<br>
+
 - All the `t_terrain_base_` files should be the **same dimension** as the **basemap**
 
 - No **Alpha Channels**
+
+<br>
 
 | Meters Per Pixel | Heightmap Dimension | Tree Placement Map Dimension | Basemap Dimension |
 | :--------------: | :-----------------: | :--------------------------: | :---------------: |
 |        1         |         1x          |              1x              |        1x         |
 |        2         |         1x          |              1x              |        2x         |
 |        4         |         1x          |              1x              |        4x         |
+
+<br>
 
 <div align="center">
   <h3>BeamNG.drive In-Game Settings</h3>
