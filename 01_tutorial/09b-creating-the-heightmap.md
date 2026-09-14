@@ -2,18 +2,18 @@
 
 ### Overview
 
-- This script is set up to work with both workflows: the **recommended workflow** and the **large-project alternative workflow**. 
+- **This script is set up to work with both workflows**: the recommended workflow and the large-project alternative workflow. 
   
-- Recommended Workflow: **Step 9a → Step 9b → Step 10**
+- Recommended Workflow: *Step 9a → Step 9b → Step 10*
   
-- Large-Project Alternative Workflow: **Step 9b → Step 9c → Step 10**
-  
-- In this step, we use CloudCompare's [**rasterize**](https://www.cloudcompare.org/doc/wiki/index.php?title=Rasterize) tool to **create the heightmap** [**raster**](https://desktop.arcgis.com/en/arcmap/latest/manage-data/raster-and-images/what-is-raster-data.htm).
+- Large-Project Alternative Workflow: *Step 9b → Step 9c → Step 10*
 
 >[!NOTE]
->When I say "**CloudCompare Interpolate**", I am referring to the "**Interpolate**" option in CloudCompare, which relies on Delaunay triangulation.
+>When I say "*CloudCompare Interpolate*", I am referring to the "**Interpolate**" option in CloudCompare, which relies on Delaunay triangulation.
 
-In general, I find CloudCompare **Kriging** to produce a **sharper raster** than CloudCompare **Interpolate**. However, as shown below, when there are "**nodata**" or **empty spaces** along the edge of the dataset, CloudCompare **Interpolate may produce a more desirable raster**.
+In general, I find CloudCompare **Kriging** to produce a sharper raster than CloudCompare **Interpolate**. 
+
+However, as shown below, when there are "*nodata*" or *empty spaces* along the edge of the dataset, CloudCompare **Interpolate may produce a more desirable raster**.
 
 <table>
   <tr>
