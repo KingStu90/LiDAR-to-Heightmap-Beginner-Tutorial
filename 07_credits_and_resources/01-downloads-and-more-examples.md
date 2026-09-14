@@ -8,7 +8,7 @@
 
 <br>
 
- **Download Links:** [**Google Drive**](https://drive.google.com/drive/folders/1HLpHrmBgWncCEFOW96CuQhYWVRa4fMVH?usp=drive_link)
+ **Download Link:** [**Google Drive**](https://drive.google.com/drive/folders/1HLpHrmBgWncCEFOW96CuQhYWVRa4fMVH?usp=drive_link)
 
 <br>
  
