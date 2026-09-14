@@ -77,6 +77,8 @@ When the heightmap is scaled back up in BeamNG.drive, the elevation changes are 
   </tr>
 </table>
 
+<br>
+
 As shown in the in-game screenshots (*Example B*), the terrain becomes **visibly smoother** as the point cloud is scaled down. I also found that the **maximum force feedback decreased** when driving the same section of road at approximately **60 mph**.
 
 *The testing was very basic and not really scientific, but the reduction in FFB noise was noticeable enough to make the track drivable without manually smoothing the driving surface for my particular direct-drive wheel/settings*.
