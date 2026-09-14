@@ -8,6 +8,8 @@
   
 - **Large-Project Alternative Workflow**: *Step 9b → Step 9c → Step 10*
 
+<br>
+
 >[!NOTE]
 >When I say "*CloudCompare Interpolate*", I am referring to the "**Interpolate**" option in CloudCompare, which relies on Delaunay triangulation.
 
@@ -19,6 +21,8 @@ However, as shown below, when there are "*nodata*" or *empty spaces* along the e
 When the resulting raster is read by software such as GDAL or QGIS, these *nodata* areas may be interpreted as a value of 0, causing the minimum elevation to be **incorrect**. This means the height range used to create the heightmap will not be accurate.
 
 It is possible to replace the *nodata* areas with the **minimum elevation** with `gdal_calc.py`, but this is out of the scope of this tutorial and is not covered.
+
+<br>
 
 <table>
   <tr>
@@ -36,6 +40,8 @@ It is possible to replace the *nodata* areas with the **minimum elevation** with
     </td>
   </tr>
 </table>
+
+<br>
 
 ***
 
