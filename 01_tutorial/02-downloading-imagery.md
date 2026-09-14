@@ -36,12 +36,12 @@ For downloading imagery outside the U.S., I will only briefly cover the QGIS met
   </tr>
 </table>
 
+<br>
+
 >[!WARNING]  
 >If you plan on sharing your map, make sure the imagery you use is **licensed for public use, redistribution, and derivative works**.
 
 ***
-
-<br>
 
 ### Instructions
 
