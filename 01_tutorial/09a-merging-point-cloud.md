@@ -16,6 +16,8 @@ Step 10: Finalizing the Heightmap
 
 ***
 
+<br>
+
 **B)** **Large-Project Alternative Workflow**
 
 - This alternative workflow is for projects where the merged point cloud is **too large to process all at once. Skip to** [**Step 9b**](09b-creating-the-heightmap.md), if you are following this workflow.
@@ -31,6 +33,8 @@ Step 10: Finalize Heightmap
 ***
 
 ### Instructions
+
+<br>
 
 - This script merges multiple `.laz` files into a single point cloud and saves the result as a new `.laz` file.
 
