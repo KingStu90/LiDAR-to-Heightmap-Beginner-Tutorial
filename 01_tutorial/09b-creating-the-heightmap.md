@@ -2,8 +2,6 @@
 
 ### Overview
 
-<br>
-
 - **This script is set up to work with both workflows**: the recommended workflow and the large-project alternative workflow. 
   
 - **Recommended Workflow**: *Step 9a → Step 9b → Step 10*
