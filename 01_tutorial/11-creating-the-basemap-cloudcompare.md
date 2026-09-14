@@ -31,6 +31,8 @@ As shown in the photos below, **PDAL IDW** interpolation **is not able to fill 
   </tr>
 </table>
 
+<br>
+
 > [!IMPORTANT]  
 > Use the **original colored point cloud before cleaning/filtering** to generate the raster. The processed point cloud contains fewer points, which can leave gaps when creating the basemap.
 > 
@@ -41,6 +43,8 @@ As shown in the photos below, **PDAL IDW** interpolation **is not able to fill 
 ### Instructions
 
 #### Step 11a: Creating the Basemap Raster via *CloudCompare*
+
+<br>
 
 >[!NOTE]
 >We are using `GRID_STEP 0.5` to create a **higher-resolution intermediate raster** before **downsampling** in *Step 12*.
