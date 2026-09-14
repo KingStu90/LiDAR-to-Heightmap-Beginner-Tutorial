@@ -8,6 +8,8 @@ My original method for downloading imagery was through **QGIS**. However, this m
 
 For downloading imagery outside the U.S., I will only briefly cover the QGIS method. 
 
+<br>
+
 <table>
   <tr>
     <th colspan="2">Example A</th>
@@ -34,6 +36,8 @@ For downloading imagery outside the U.S., I will only briefly cover the QGIS met
   </tr>
 </table>
 
+<br>
+
 >[!WARNING]  
 >If you plan on sharing your map, make sure the imagery you use is **licensed for public use, redistribution, and derivative works**.
 
@@ -49,6 +53,8 @@ For downloading imagery outside the U.S., I will only briefly cover the QGIS met
   style="max-width: 60%; height: auto;">
 </div>
 
+<br>
+
 **A)** Select the **Area of Interest** (*AOI*).
   
 **B)** On the desired imagery, click the **Shopping Cart** icon (*not shown*).
@@ -57,9 +63,13 @@ For downloading imagery outside the U.S., I will only briefly cover the QGIS met
 
 **D)** Click the **Cart** on left sidebar to **Checkout** (*Requires email address to receive download link*).
 
+<br>
+
 >[!NOTE]
 >To find out which **Projection and Datum Options** to select, use `pdal info --summary` on the `.laz` file. The output will be a huge wall of text and may be overwhelming at first.Look for the **EPSG code** located here (*A*).<br> 
 >Once you have the EPSG code, enter it into [**EPSG.io**](https://epsg.io/6424) to make the information easier to read. On the EPSG.io page, scroll down to **Export** and select the **ESRI WKT** tab.
+
+<br>
 
 <div align="center">
   <img src="../06_photos/02e_pdal_info.webp" 
@@ -93,6 +103,8 @@ docker run --rm \
   alt="QGIS download page"
   style="max-width: 80%; height: auto;">
 </div>
+
+<br>
 
 **A)** *WMS, XYZ Tiles, and ArcGIS REST Server* are possible sources for imagery (*right-click > New Connection...*). 
   
