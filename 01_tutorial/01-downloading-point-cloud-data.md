@@ -44,7 +44,7 @@ While the USGS covers much of the United States, **additional LiDAR datasets** m
 
 ***
 
-**This script uses** `wget` **to download everything listed in** `downloadlist.txt`. It resumes incomplete downloads, skips files that already exist, and spaces out requests with randomized delays.
+- **This script uses** `wget` **to download everything listed in** `downloadlist.txt`. It resumes incomplete downloads, skips files that already exist, and spaces out requests with randomized delays.
 
 #### Native Execution 
 
@@ -67,7 +67,7 @@ wget -v -c -nc \
 
 ####  *(Optional)* Shorten File Names
 
-Once you run this `echo` version, **check the printed preview** to make sure the 12-character slice from the right side of the filename looks correct. Then **swap** `echo mv` for `mv` to actually rename the files.
+- Once you run this `echo` version, **check the printed preview** to make sure the 12-character slice from the right side of the filename looks correct. Then **swap** `echo mv` for `mv` to actually rename the files.
 
 ```bash
 docker run --rm \
