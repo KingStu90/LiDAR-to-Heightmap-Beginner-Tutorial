@@ -80,7 +80,7 @@ echo "Finished: $output_file"
 
 <br>
 
-***QGIS Method***
+- ***QGIS Method***
 
 <div style="text-align: center;">
   <img src="../06_photos/10b_convert_16bit_qgis.webp" 
@@ -91,7 +91,7 @@ echo "Finished: $output_file"
 
 <br>
 
-***GDAL Method***
+- ***GDAL Method***
 
 ```bash
 docker run --rm \
