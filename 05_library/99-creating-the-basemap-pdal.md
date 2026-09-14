@@ -48,7 +48,7 @@ Look for the **Red**, **Green**, and **Blue** values in the output. The `ma
 
 <br>
 
-- **PDAL Pipeline**
+**A)** **PDAL Pipeline**
 
 <div align="center">
   <img src="../06_photos/99_pdal_pipeline_idw.webp" 
@@ -74,7 +74,7 @@ Look for the **Red**, **Green**, and **Blue** values in the output. The `ma
 
 ***
 
-- **Bash Scripts**
+**B)** **Bash Scripts**
 
 <br>
 
