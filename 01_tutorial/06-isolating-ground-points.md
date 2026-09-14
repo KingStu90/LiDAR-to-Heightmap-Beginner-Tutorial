@@ -12,7 +12,8 @@ In this step, we are isolating the **ground** from **non-ground points**. To do 
   <a href="https://ramm.bnu.edu.cn/researchers/wumingzhang/english/default_contributions.htm">Original Contribution by Wuming Zhang</a>
 </p>
 
-**For the dataset provided** with this tutorial, the CloudCompare CSF filter does a pretty good job of correctly identifying the ground and non-ground points (*Example B*).<br> 
+**For the dataset provided** with this tutorial, the CloudCompare CSF filter does a pretty good job of correctly identifying the ground and non-ground points (*Example B*).
+
 However, there are some cases (*Example C*) where the CloudCompare CSF filter **may not work well**, such as areas with very **steep or vertical terrain** where much of the ground can be incorrectly classified as non-ground. The Eureka Dunes (*Example C*) are also a good example of a dataset where the CSF filter is unnecessary and **can incorrectly classify ground points as non-ground points**.
 
 <table>
