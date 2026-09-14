@@ -24,9 +24,9 @@
 <br>
 
 >[!WARNING]  
->The original heightmap **should not be resized or resampled in a image editor** if it is being used as the elevation data. Changes to the pixel values can alter the resulting terrain.
+>I recommend that the original heightmap **not be resized or resampled in a image editor** if it is being used as elevation data. Changes to the pixel values can alter the resulting terrain. 
 >
->**Heightmap modifications** may be appropriate for **visual purposes**, such as generating normal maps or other PBR textures.
+>**Heightmap modifications** may be appropriate for **visual purposes**, such as generating normal maps or other PBR textures.
 
 <br>
 
