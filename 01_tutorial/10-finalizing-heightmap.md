@@ -39,6 +39,8 @@ docker run --rm \
   <em>X and Y define the starting position of the crop, measured from the upper-left corner of the image and 1024x1024 is the map size</em>
 </div>
 
+<br>
+
 ```bash
 #!/bin/bash
 mkdir -p 02_data/10_final_heightmap
@@ -76,6 +78,8 @@ echo "Finished: $output_file"
   style="max-width: 60%; height: auto;"><br>
   <em>Note: QGIS may display slightly different min/max values than gdalinfo -mm</em>
 </div>
+
+<br>
 
 ***GDAL Method***
 
