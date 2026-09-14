@@ -51,7 +51,7 @@ With this new method the **original tile extent is preserved** during the raster
   <figcaption style="text-align: center; margin-top: 10px;"><em>Colors swapped for easier viewing. Red = tree placement</em></figcaption>
 </figure>
 
-<br>
+<br><br>
 
 > [!NOTE]  
 > This is one of the steps that **may require some experimentation with different settings to correctly identify trees**. As shown above (*A*), parts of the El Capitan mountain face were misidentified as trees.<br>  
