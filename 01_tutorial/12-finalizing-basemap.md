@@ -4,7 +4,7 @@
 
 - This step combines several GDAL processing operations.
    
-- The **values used** throughout the commands are **specific to this tutorial example** and BeamNG.drive.
+- The values used throughout the commands are **specific to this tutorial example** and BeamNG.drive.
 
 ***
 
