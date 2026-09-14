@@ -25,11 +25,15 @@ One of the **main issues** with my first track made from LiDAR data was that the
   </tr>
 </table>
 
+<br>
+
 Especially for a race track, **the most important thing to me was keeping the original surface camber and elevation changes**. After a lot of testing with different *rasterization methods, noise cleaning/filtering, scaling, etc*.
 
 I found that the method that worked best for getting a ready-to-drive heightmap into BeamNG.drive was to scale the point cloud **down to 50% in CloudCompare** before generating the heightmap, and then **scale the resulting heightmap back up** by the same amount in BeamNG.drive via `Meters-per-Pixels`.
 
 When the heightmap is scaled back up in BeamNG.drive, the elevation changes are spread across a wider area, making them more gradual (*Example B*).
+
+<br>
 
 <table>
   <tr>
@@ -76,6 +80,8 @@ When the heightmap is scaled back up in BeamNG.drive, the elevation changes are 
 As shown in the in-game screenshots (*Example B*), the terrain becomes **visibly smoother** as the point cloud is scaled down. I also found that the **maximum force feedback decreased** when driving the same section of road at approximately **60 mph**.
 
 *The testing was very basic and not really scientific, but the reduction in FFB noise was noticeable enough to make the track drivable without manually smoothing the driving surface for my particular direct-drive wheel/settings*.
+
+<br>
 
 > [!IMPORTANT]
 > If you are following my process of scaling the point cloud to 50%, the **X, Y, and Z dimensions are all reduced by 50%**.
