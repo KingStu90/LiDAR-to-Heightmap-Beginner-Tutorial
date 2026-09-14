@@ -138,7 +138,7 @@ All of the software used in the tutorial is listed below and is free to dow
 
 *Depending on your operating system and what dependencies are installed, you may need to do some troubleshooting to get all the programs working correctly*.
 
-<br>
+***
 
 ### Docker Execution
 
