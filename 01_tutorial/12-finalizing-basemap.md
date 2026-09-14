@@ -51,8 +51,6 @@ docker run --rm \
 echo "Finished: $output_file"
 ```
 
-<br>
-
 `outsize` - Resizes the image to a **specific width and height** in pixels.
   
 For **aerial and satellite imagery**, these resampling methods are good options:
