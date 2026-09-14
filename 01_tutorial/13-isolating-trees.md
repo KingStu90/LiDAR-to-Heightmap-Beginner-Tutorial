@@ -8,7 +8,8 @@
   
 - The filtered points are converted into raster tiles to create a **tree placement map**. In BeamNG.drive we can use this to place trees with the World Editor [**Biome Tool**](https://documentation.beamng.com/world_editor/tools/biome_tool/).
   
-The filtering process **removes most of the points from the original tile**, so the remaining points might occupy only a small portion of the original extent (*as shown with Buttonwillow*). When the raster is created from only the filtered points, the **resulting raster is smaller than the original tile**.<br> 
+The filtering process **removes most of the points from the original tile**, so the remaining points might occupy only a small portion of the original extent (*as shown with Buttonwillow*). When the raster is created from only the filtered points, the **resulting raster is smaller than the original tile**.
+
 With this new method the **original tile extent is preserved** during the rasterization process so the same crop coordinates can be used later to keep the tree placement map aligned with the heightmap and basemap.
 
 <div align="center">
@@ -51,7 +52,7 @@ With this new method the **original tile extent is preserved** during the raster
 </figure>
 
 > [!NOTE]  
-> This is one of the steps that **may require some experimentation with different settings to correctly identify trees**. As shown above **(A)**, parts of the El Capitan mountain face were misidentified as trees.<br>  
+> This is one of the steps that **may require some experimentation with different settings to correctly identify trees**. As shown above (*A*), parts of the El Capitan mountain face were misidentified as trees.<br>  
 >This could be reduced by further refining `filters.approximatecoplanar` and adding **linearity-based filtering**. The settings in this tutorial are intentionally kept **conservative and broadly applicable**.
 
 ***
@@ -70,7 +71,7 @@ With this new method the **original tile extent is preserved** during the raster
 
 **B)** Calculates the height of each point above the ground.
 
-**C)** Analyzes the local geometry of points to help distinguish **planar surfaces** from irregular vegetation.
+**C)** Analyzes the local geometry of points to help distinguish **coplanar surfaces** from irregular vegetation.
 
 **D)** Keeps only points **35–115 units above ground** and **removes points classified as coplanar**.
 
