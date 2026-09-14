@@ -4,11 +4,15 @@
 
 *Steps 5 and 6* use CloudCompare's Command Line Interface (*CLI*) to process the point cloud instead of the Graphical User Interface (*GUI*).
 
+<br>
+
 | **CLI Benefit**                                                                                    | **GUI Benefit**                                                                        |
 | :------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------- |
 | &bull; Repeatability / Docker Compatibility<br>&bull; More efficient processing of large data sets | &bull; Easier for beginners to learn<br>&bull; Much easier to experiment with settings |
 | **CLI Drawback**                                                                                   | **GUI Drawback**                                                                       |
 | &bull; CloudCompare built primarily as GUI application<br>&bull; Code complexity                   | &bull; RAM dependent (bottleneck)<br>&bull; Longer loading time (render data)          |
+
+<br>
 
 There are **many different methods for cleaning up noisy point cloud data**. This step is very dependent on your dataset. The number of tiles, point density, and amount of available **RAM and virtual memory** can all affect how you process the data.
 
@@ -17,6 +21,8 @@ For example, **9 merged** `.laz` tiles from Yosemite National Park contained 
 On the other hand, **9 merged** `.laz` tiles from Buttonwillow Raceway Park contained **93,526,691 points** and were only **288 MB** in size. When loaded into CloudCompare, this dataset required approximately **8.5 GB of memory**, which is much more manageable on most computers.
 
 The important takeaway is that for smaller projects, you can generally do most of the processing within the CloudCompare GUI. **As datasets become larger, you may need to split the work into smaller sections or process the individual tiles separately**.
+
+<br>
 
 <table>
   <tr>
@@ -34,6 +40,8 @@ The important takeaway is that for smaller projects, you can generally do most o
     </td>
   </tr>
 </table>
+
+<br>
 
 For this tutorial, the code I have provided uses CloudCompare's SOR Filter to **remove statistical outliers**, as shown in the Before and After photos.<br> 
 The values used are relatively conservative and **may have to be changed for different datasets.**
@@ -56,8 +64,12 @@ The values used in the SOR script correspond to the following:
 
 #### Native Execution (*Linux Mint Flatpak*)
 
+<br>
+
 > [!NOTE]  
 > These commands are written for the **Flatpak version of CloudCompare** on Linux Mint. If you are using the **native execution** commands, you ***may have to remove*** the Flatpak/environment lines and replace them with `CloudCompare`.
+
+<br>
 
 ```bash
 mkdir -p 02_data/05_heightmap_sor_filter
@@ -89,12 +101,16 @@ done
 ./run_pipeline.sh 05a_heightmap_sor_filter.sh
 ```
 
+<br>
+
 > [!WARNING]  
 > As mentioned before, CloudCompare is primarily built for processing with the GUI. **In order to get CloudCompare to work with Docker, all scalar fields had to be removed** using `-REMOVE_ALL_SFS`, and the point cloud also had to be exported as a `.las` file.
 > 
 > The **command below** converts the `.las` back into `.laz`.
 > 
 > *This only applies to the Docker workflow.*
+
+<br>
 
 #### Docker Execution
 
