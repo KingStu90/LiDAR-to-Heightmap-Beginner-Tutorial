@@ -24,6 +24,8 @@ docker run --rm \
     lidar-pipeline \
 ```
 
+<br>
+
 ***
 
 #### 1) Cropping the Heightmap
@@ -68,7 +70,11 @@ echo "Finished: $output_file"
 
 #### 2) Convert Heightmap to 16-Bit
 
+<br>
+
 **A) Find Minimum and Maximum Heights**
+
+<br>
 
 ***QGIS Method***
 
@@ -91,6 +97,8 @@ docker run --rm \
     lidar-pipeline \
     gdalinfo 02_data/10_final_heightmap/heightmap_MERGED_CROP.tif -mm
 ```
+
+<br>
 
 **B) Convert to 16-Bit**
 
@@ -120,6 +128,8 @@ echo "Finished: $output_file"
 
 #### 3) Convert `.tif` to `.png`
 
+<br>
+
 > [!IMPORTANT]
 > If you are following my process of scaling the point cloud to 50%, the **X, Y, and Z dimensions are all reduced by 50%**.
 >
@@ -127,6 +137,8 @@ echo "Finished: $output_file"
 >
 >*Scaled Height (50%) = 9.457 m*<br>
 >*Actual Height (2x) = 18.914 m*
+
+<br>
 
 - **Outputs the final heightmap**. Replace `FINAL_heightmap_buttonwillow_h18.914` with your own name.
 
