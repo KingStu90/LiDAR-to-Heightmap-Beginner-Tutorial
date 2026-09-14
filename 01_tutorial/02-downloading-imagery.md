@@ -45,6 +45,8 @@ For downloading imagery outside the U.S., I will only briefly cover the QGIS met
 
 ### Instructions
 
+<br>
+
 #### NOAA Download Method
 
 <br>
@@ -97,6 +99,8 @@ docker run --rm \
 ```
 
 ***
+
+<br>
 
 #### QGIS Download Method
 
