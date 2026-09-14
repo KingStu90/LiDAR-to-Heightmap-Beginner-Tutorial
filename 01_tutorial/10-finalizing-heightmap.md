@@ -108,6 +108,8 @@ docker run --rm \
 
 <br>
 
+- `scale` rescales the specified minimum and maximum elevations to fit the full 0–65,535 range.
+
 ```bash
 #!/bin/bash
 input_file="02_data/10_final_heightmap/heightmap_MERGED_CROP.tif"
