@@ -65,6 +65,8 @@ The values used in the SOR script correspond to the following:
 > [!NOTE]  
 > These commands are written for the **Flatpak version of CloudCompare** on Linux Mint. If you are using the **native execution** commands, you ***may have to remove*** the Flatpak/environment lines and replace them with `CloudCompare`.
 
+<br>
+
 #### Native Execution (*Linux Mint Flatpak*)
 
 ```bash
