@@ -10,6 +10,8 @@
   
 - *In order to visually show what reprojection does*, the imagery in **Example B** was downloaded in **EPSG:26910** and then reprojected into **EPSG:6424**.
 
+<br>
+
 >[!NOTE]
 >The script works with either a single imagery tile or multiple individual tiles downloaded from QGIS.
 
@@ -98,6 +100,8 @@ docker run --rm \
 ***
 
 ### Instructions
+
+<br>
 
 - This script combines multiple `.tif` files into a single mosaic, **reprojects it to EPSG:6424 using Lanczos resampling**, and saves the result as a compressed, tiled `.tif`. It then removes the temporary files created during processing.
 
