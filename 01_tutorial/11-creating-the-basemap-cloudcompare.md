@@ -43,7 +43,7 @@ As shown in the photos below, **PDAL IDW** interpolation **is not able to fill 
 #### Step 11a: Creating the Basemap Raster via *CloudCompare*
 
 >[!NOTE]
->We are using `GRID_STEP 0.5` to create a **higher-resolution intermediate raster** before **downsampling in Step 12**.
+>We are using `GRID_STEP 0.5` to create a **higher-resolution intermediate raster** before **downsampling** in *Step 12*.
 >
 >This allows more of the color variation from the point cloud to be represented before the final resampling step. When resampled with Lanczos, **this additional detail can then be used when calculating the final pixels, generally producing a sharper-looking basemap**.
 
