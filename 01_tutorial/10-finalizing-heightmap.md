@@ -136,8 +136,6 @@ echo "Finished: $output_file"
 >*Scaled Height (50%) = 9.457 m*<br>
 >*Actual Height (2x) = 18.914 m*
 
-<br>
-
 - **Outputs the final heightmap**. Replace `FINAL_heightmap_buttonwillow_h18.914` with your own name.
 
 ```bash
