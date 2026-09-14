@@ -22,9 +22,9 @@ heightmap_MERGED.tif = 1144 x 1144
 basemap_MERGED.tif    = 2288 x 2288
 ```
 
-<br>
-
 - If the point cloud has been scaled to 50% the basemap dimensions need to be scaled to 2x.
+
+<br>
 
 ```bash
 #!/bin/bash
