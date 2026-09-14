@@ -36,7 +36,7 @@ Look for the **Red**, **Green**, and **Blue** values in the output. The `ma
 
 #### 2) Basemap Rasterization
 
-The **PDAL pipeline** below defines **how the point cloud is rasterized**. The **Bash script** then runs this pipeline for each point-cloud file.
+- The **PDAL pipeline** below defines **how the point cloud is rasterized**. The **Bash script** then runs this pipeline for each point-cloud file.
 
 **PDAL Pipeline**
 
@@ -66,7 +66,7 @@ The **PDAL pipeline** below defines **how the point cloud is rasterized**. The
 
 **Bash Scripts**
 
-Choose **1 Tile** if you have limited RAM. Choose **4 Tiles** to process **four tiles in parallel**, which can significantly increase memory usage.
+- Choose **1 Tile** if you have limited RAM. Choose **4 Tiles** to process **four tiles in parallel**, which can significantly increase memory usage.
 
 **Native Execution - 1 Tile**
 
@@ -128,7 +128,7 @@ xargs -0 -I {} -P 4 bash -c '
 
 #### 3) Merging RGB Basemap Layers
 
-The only setting _**you may**_ have to change is `ot Byte`, the remaining settings are **recommended defaults** for this workflow and should not normally need to be changed.
+- The only setting _**you may**_ have to change is `ot Byte`, the remaining settings are **recommended defaults** for this workflow and should not normally need to be changed.
 
 **Native Execution**
 
