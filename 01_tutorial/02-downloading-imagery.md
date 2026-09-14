@@ -41,11 +41,17 @@ For downloading imagery outside the U.S., I will only briefly cover the QGIS met
 >[!WARNING]  
 >If you plan on sharing your map, make sure the imagery you use is **licensed for public use, redistribution, and derivative works**.
 
+<br>
+
 ***
+
+<br>
 
 ### Instructions
 
 #### NOAA Download Method
+
+<br>
 
 <div align="center">
   <img src="../06_photos/02c_noaa_download.webp" 
@@ -97,6 +103,8 @@ docker run --rm \
 ***
 
 #### QGIS Download Method
+
+<br>
 
 <div align="center">
   <img src="../06_photos/02d_qgis_download.webp" 
