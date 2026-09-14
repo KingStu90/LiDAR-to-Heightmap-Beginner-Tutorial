@@ -4,9 +4,9 @@
 
 - **This script is set up to work with both workflows**: the recommended workflow and the large-project alternative workflow. 
   
-- Recommended Workflow: *Step 9a → Step 9b → Step 10*
+- **Recommended Workflow**: *Step 9a → Step 9b → Step 10*
   
-- Large-Project Alternative Workflow: *Step 9b → Step 9c → Step 10*
+- **Large-Project Alternative Workflow**: *Step 9b → Step 9c → Step 10*
 
 >[!NOTE]
 >When I say "*CloudCompare Interpolate*", I am referring to the "**Interpolate**" option in CloudCompare, which relies on Delaunay triangulation.
