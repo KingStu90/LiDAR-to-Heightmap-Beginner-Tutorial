@@ -6,61 +6,61 @@
 
 #### 1) Buttonwillow Raceway Park - California
 
-**LiDAR Data**
+- **LiDAR Data**
 
 U.S. Geological Survey, 2023, 3D Elevation Program Lidar Point Cloud, CA_SanJoaquin_6_2021, accessed July 30, 2026 at URL [**https://apps.nationalmap.gov/lidar-explorer/#/**](https://apps.nationalmap.gov/lidar-explorer/#/)
 
-**Imagery**
+- **Imagery**
 
 OCM Partners, 2026: 2022 California NAIP 4-Band 8 Bit Imagery from 2010-06-15 to 2010-08-15. NOAA National Centers for Environmental Information, [**https://www.fisheries.noaa.gov/inport/item/70527**](https://www.fisheries.noaa.gov/inport/item/70527)
 
 #### 2) Swing Arm City - Utah
 
-**LiDAR Data**
+- **LiDAR Data**
 
 U.S. Geological Survey, 2021, 3D Elevation Program Lidar Point Cloud, UT_StatewideSouth_2020_A20, accessed July 25, 2026 at URL [**https://apps.nationalmap.gov/lidar-explorer/#/**](https://apps.nationalmap.gov/lidar-explorer/#/)
 
-**Imagery**
+- **Imagery**
 
 OCM Partners, 2026: 2021 Utah NAIP 4-Band 8 Bit Imagery from 2010-06-15 to 2010-08-15. NOAA National Centers for Environmental Information, [**https://www.fisheries.noaa.gov/inport/item/68235**](https://www.fisheries.noaa.gov/inport/item/68235)
 
 #### 3) Eureka Dunes - California
 
-**LiDAR Data**
+- **LiDAR Data**
 
 U.S. Geological Survey, 2026, 3D Elevation Program Lidar Point Cloud, CA_FEMAR9Southeast_D24, accessed July 24, 2026 at URL [**https://apps.nationalmap.gov/lidar-explorer/#/**](https://apps.nationalmap.gov/lidar-explorer/#/)
 
-**Imagery**
+- **Imagery**
 
 OCM Partners, 2026: 2022 California NAIP 4-Band 8 Bit Imagery from 2010-06-15 to 2010-08-15. NOAA National Centers for Environmental Information, [**https://www.fisheries.noaa.gov/inport/item/70527**](https://www.fisheries.noaa.gov/inport/item/70527)
 
 #### 4) Crater Lake - Oregon
 
-**LiDAR Data**
+- **LiDAR Data**
 
 U.S. Geological Survey, 2026, 3D Elevation Program Lidar Point Cloud, OR_SouthEast_D22, accessed July 10, 2026 at URL [**https://apps.nationalmap.gov/lidar-explorer/#/**](https://apps.nationalmap.gov/lidar-explorer/#/)
 
-**Imagery**
+- **Imagery**
 
 U.S. Geological Survey, USGS NAIP Imagery, accessed July 10, 2026 at URL [**https://imagery.nationalmap.gov/arcgis/services/USGSNAIPImagery/ImageServer/WMSServer**](https://imagery.nationalmap.gov/arcgis/services/USGSNAIPImagery/ImageServer/WMSServer)
 
 #### 5) El Capitan - California
 
-**LiDAR Data**
+- **LiDAR Data**
 
 U.S. Geological Survey, 2021, 3D Elevation Program Lidar Point Cloud, CA_YosemiteNP_2019, accessed June 18, 2026 at URL [**https://apps.nationalmap.gov/lidar-explorer/#/**](https://apps.nationalmap.gov/lidar-explorer/#/)
 
-**Imagery**
+- **Imagery**
 
 U.S. Geological Survey, USGS NAIP Imagery, accessed June 18, 2026 at URL [**https://imagery.nationalmap.gov/arcgis/services/USGSNAIPImagery/ImageServer/WMSServer**](https://imagery.nationalmap.gov/arcgis/services/USGSNAIPImagery/ImageServer/WMSServer)
 
 #### 6) Ridge Motorsports Park - Washington
 
-**LiDAR Data**
+- **LiDAR Data**
 
 Washington Geological Survey, 2025, Mason County Refresh24 2025 project \[lidar data\]: originally contracted by Washington Dept. of Natural Resources. \[accessed May 14, 2026, at [**https://lidarportal.dnr.wa.gov**](https://lidarportal.dnr.wa.gov)
 
-**Imagery**
+- **Imagery**
 
 U.S. Geological Survey, USGS NAIP Imagery, accessed July 28, 2026 at URL [**https://imagery.nationalmap.gov/arcgis/services/USGSNAIPImagery/ImageServer/WMSServer**](https://imagery.nationalmap.gov/arcgis/services/USGSNAIPImagery/ImageServer/WMSServer)
 
