@@ -17,7 +17,7 @@ However, as shown below, when there are "*nodata*" or *empty spaces* along the e
 
 *Note*: As shown with CloudCompare Interpolate, the black areas represent *nodata* and are not **real elevation data**.<br>
 When the resulting raster is read by software such as GDAL or QGIS, these *nodata* areas may be interpreted as a value of 0, causing the minimum elevation to be incorrect. This means the height range used to create the heightmap will not be accurate.<br> 
-It is possible to replace the *nodata* areas with the **true minimum elevation**, but this is out of the scope of this tutorial and is not covered.
+It is possible to replace the *nodata* areas with the **minimum elevation** with `gdal_calc.py`, but this is out of the scope of this tutorial and is not covered.
 
 <table>
   <tr>
