@@ -94,6 +94,11 @@ As shown in the in-game screenshots (*Example B*), the terrain becomes **visibly
 
 ### Instructions
 
+<br>
+
+- This script **converts the X, Y, and Z coordinates** of each `.laz` point cloud using a conversion factor of **0.5**. It then saves the converted point clouds as new `.laz` files.
+
+
 #### Native Execution 
 
 ```bash
