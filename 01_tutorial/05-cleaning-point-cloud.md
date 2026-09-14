@@ -110,8 +110,6 @@ done
 > 
 > *This only applies to the Docker workflow.*
 
-<br>
-
 #### Docker Execution
 
 ```bash
