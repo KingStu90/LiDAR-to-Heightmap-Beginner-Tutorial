@@ -4,7 +4,11 @@ A beginner-friendly, reproducible workflow for turning **LiDAR data into heightm
 
 - Additional screenshots and download links for maps can be found [**here**](07_credits_and_resources/01-downloads-and-more-examples.md).
 
+<br>
+
 [**View the full tutorial website**](https://kingstu90.github.io/LiDAR-to-Heightmap-Tutorial-Website/) →
+
+<br>
 
 [**Start the tutorial**](01_tutorial/01-downloading-point-cloud-data.md) →
 
