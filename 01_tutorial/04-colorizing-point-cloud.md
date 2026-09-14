@@ -29,6 +29,8 @@
 
 ### Instructions
 
+<br>
+
 - This script colorizes each `.laz` file using the reprojected `.tif` raster, adding RGB color information to the LiDAR point data. It then saves each colorized file as a compressed `.laz` file.
 
 <br>
