@@ -80,6 +80,8 @@ The repository contains the complete project files used by the tutorial, includi
 
 You can follow the tutorial using the included `downloadlist.txt` to reproduce the examples, or use the same workflow with your own data. *Depending on the dataset, some steps or settings may need to be adjusted.*
 
+<br><br>
+
 >[!NOTE]
 >**Point cloud** in this tutorial refers to `.laz` or `.las` files.
 >
