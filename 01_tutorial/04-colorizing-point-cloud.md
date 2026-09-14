@@ -6,6 +6,8 @@
   
 - **Adding color to a point cloud can make it much easier to see the data**, especially when viewing it in 3D point cloud software such as CloudCompare.
 
+<br>
+
 <table>
   <tr>
     <td width="50%" align="center">
@@ -29,10 +31,14 @@
 
 - This script colorizes each `.laz` file using the reprojected `.tif` raster, adding RGB color information to the LiDAR point data. It then saves each colorized file as a compressed `.laz` file.
 
+<br>
+
 >[!IMPORTANT]  
 >**I highly recommend you check the point clouds in CloudCompare or QGIS after this step** to make sure the colorization process was successful.
 >
 >**This process will still output "completed" `.laz` files even if the imagery and point cloud data are misaligned.** Depending on the workflow of later processes, you may not be able to colorize the point cloud later if its spatial information has been lost or overwritten.
+
+<br>
 
 #### Native Execution 
 
