@@ -54,8 +54,6 @@ Additional screenshots and download links for maps can be found [**here**](07_cr
   </tbody>
 </table>
 
-<br>
-
 ***
 
 ### What This Tutorial Does
