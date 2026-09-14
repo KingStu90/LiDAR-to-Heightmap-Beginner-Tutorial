@@ -62,11 +62,11 @@ However, there are some cases (*Example C*) where the CloudCompare CSF filter **
   </tr>
 </table>
 
-<br>
-
 ***
 
 ### Instructions
+
+<br>
 
 #### CloudCompare GUI 
 
@@ -92,6 +92,8 @@ However, there are some cases (*Example C*) where the CloudCompare CSF filter **
 >*1 meter = 3.28 feet*
 >
 >`SCENES` and `PROC_SLOPE` are also dependent on your dataset.
+
+<br>
 
 #### Native Execution (*Linux Mint Flatpak*)
 
