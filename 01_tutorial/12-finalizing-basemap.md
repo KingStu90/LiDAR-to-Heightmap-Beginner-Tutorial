@@ -12,6 +12,8 @@
 
 #### 1) Scaling the Basemap
 
+<br>
+
 - For this step we will need the original dimensions of `heightmap_MERGED.tif` from **Step 10**.
 
 ```text
@@ -60,6 +62,8 @@ For **aerial and satellite imagery**, these resampling methods are good options:
 ***
 
 #### 2) Cropping the Basemap
+
+<br>
 
 ```text
 Heightmap crop:  x=100, y=50, width=1024, height=1024
