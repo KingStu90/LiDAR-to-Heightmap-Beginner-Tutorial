@@ -4,7 +4,7 @@
 
 **A)** **Recommended Workflow**
 
-*Merging the point clouds before rasterization helps prevent artifacts* in the final heightmap, such as visible lines where individual tiles meet.
+Merging the point clouds before rasterization helps prevent artifacts in the final heightmap, such as visible lines where individual tiles meet.
 
 ```text
 Step 9a: Merging the Point Cloud
@@ -18,7 +18,7 @@ Step 10: Finalizing the Heightmap
 
 **B)** **Large-Project Alternative Workflow**
 
-This *alternative workflow* is for projects where the merged point cloud is **too large to process all at once. Skip to** [**Step 9b**](09b-creating-the-heightmap.md), if you are following this workflow.
+This alternative workflow is for projects where the merged point cloud is **too large to process all at once. Skip to** [**Step 9b**](09b-creating-the-heightmap.md), if you are following this workflow.
 
 ```text
 Step 9b: Creating the Heightmap Raster
