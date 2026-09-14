@@ -108,7 +108,7 @@ docker run --rm \
 
 <br>
 
-- `scale` rescales the specified minimum and maximum elevations to fit the full 0–65,535 range.
+- `scale` rescales the minimum and maximum elevations to fit the full 0–65,535 range.
 
 ```bash
 #!/bin/bash
