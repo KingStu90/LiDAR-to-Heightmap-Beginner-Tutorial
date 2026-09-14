@@ -14,6 +14,8 @@ This method produces the **same type of basemap** used in the main workflow, so 
 
 ### Instructions
 
+<br>
+
 #### 1) Check RGB Values
 
 ```bash
@@ -25,7 +27,11 @@ docker run --rm \
     pdal info 02_data/04_colorize/s60975w23675_COLOR.laz --stats
 ```
 
+<br>
+
 Look for the **Red**, **Green**, and **Blue** values in the output. The `maximum` value will indicate whether the RGB data is 8-bit or 16-bit.
+
+<br>
 
 | Type             | Size in Bits | Values    | Text Representations                   |
 | ---------------- | ------------ | --------- | -------------------------------------- |
@@ -36,9 +42,13 @@ Look for the **Red**, **Green**, and **Blue** values in the output. The `ma
 
 #### 2) Basemap Rasterization
 
+<br>
+
 - The **PDAL pipeline** below defines **how the point cloud is rasterized**. The **Bash script** then runs this pipeline for each point-cloud file.
 
-**PDAL Pipeline**
+<br>
+
+- **PDAL Pipeline**
 
 <div align="center">
   <img src="../06_photos/99_pdal_pipeline_idw.webp" 
@@ -64,7 +74,9 @@ Look for the **Red**, **Green**, and **Blue** values in the output. The `ma
 
 ***
 
-**Bash Scripts**
+- **Bash Scripts**
+
+<br>
 
 - Choose **1 Tile** if you have limited RAM. Choose **4 Tiles** to process **four tiles in parallel**, which can significantly increase memory usage.
 
@@ -127,6 +139,8 @@ xargs -0 -I {} -P 4 bash -c '
 ***
 
 #### 3) Merging RGB Basemap Layers
+
+<br>
 
 - The only setting _**you may**_ have to change is `ot Byte`, the remaining settings are **recommended defaults** for this workflow and should not normally need to be changed.
 
