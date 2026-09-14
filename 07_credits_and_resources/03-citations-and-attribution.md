@@ -82,8 +82,6 @@ U.S. Geological Survey, USGS NAIP Imagery, accessed July 28, 2026 at URL [**http
 
 ***
 
-<br>
-
 #### 1) King County Aerial Imagery
 
 King County, n.d., Basemaps: Aerial 2023, accessed June 18, 2026 at URL [**https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer**](https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer)
