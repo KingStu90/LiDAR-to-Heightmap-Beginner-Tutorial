@@ -154,8 +154,6 @@ done
 
 #### Alternative Methods of Filtering/Cleaning
 
-<br>
-
 -  CloudCompare [**Noise Filter**](https://www.cloudcompare.org/doc/wiki/index.php/Noise_filter)
   
 	-  `Tools > Clean > Noise filter`
