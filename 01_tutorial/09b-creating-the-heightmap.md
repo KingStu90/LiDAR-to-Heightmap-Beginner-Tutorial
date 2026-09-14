@@ -2,6 +2,8 @@
 
 ### Overview
 
+<br>
+
 - **This script is set up to work with both workflows**: the recommended workflow and the large-project alternative workflow. 
   
 - **Recommended Workflow**: *Step 9a → Step 9b → Step 10*
@@ -13,9 +15,13 @@
 >[!NOTE]
 >When I say "*CloudCompare Interpolate*", I am referring to the "**Interpolate**" option in CloudCompare, which relies on Delaunay triangulation.
 
+<br>
+
 In general, I find CloudCompare **Kriging** to produce a sharper raster than CloudCompare **Interpolate**. 
 
 However, as shown below, when there are "*nodata*" or *empty spaces* along the edge of the dataset, CloudCompare **Interpolate may produce a more desirable raster**.
+
+<br>
 
 *Note*: As shown with **CloudCompare Interpolate**, the black areas represent *nodata* and are not **real elevation data**.<br>
 When the resulting raster is read by software such as GDAL or QGIS, these *nodata* areas may be interpreted as a value of 0, causing the minimum elevation to be **incorrect**. This means the height range used to create the heightmap will not be accurate.
@@ -41,17 +47,19 @@ It is possible to replace the *nodata* areas with the **minimum elevation** with
   </tr>
 </table>
 
-<br>
-
 ***
 
 ### Instructions
+
+<br>
 
 #### CloudCompare GUI 
 
 -  `Tools > Projection > Rasterize`
 
 ***
+
+<br>
 
 **CloudCompare Interpolate CLI Command**: `EMPTY_FILL INTERP`
 
