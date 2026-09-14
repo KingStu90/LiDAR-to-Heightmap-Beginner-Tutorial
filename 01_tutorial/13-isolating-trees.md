@@ -96,7 +96,7 @@ With this new method the **original tile extent is preserved** during the raster
 
 #### 13b_pipeline_trees_raster.json
 
-These settings in `13b_pipeline_trees_raster.json` are **recommended defaults** for this workflow and should not normally need to be changed.
+- These settings in `13b_pipeline_trees_raster.json` are **recommended defaults** for this workflow and should not normally need to be changed.
 
 ***
 
@@ -160,7 +160,7 @@ done
 
 #### 13b Merge Tree Rasters
 
-The following settings are **recommended defaults** for this workflow and should not normally need to be changed.
+- The following settings are **recommended defaults** for this workflow and should not normally need to be changed.
 
 #### Native Execution
 
