@@ -4,11 +4,11 @@
 
 - **USGS 3DEP LidarExplorer**
 
-  [**https://apps.nationalmap.gov/lidar-explorer/#/**](https://apps.nationalmap.gov/lidar-explorer/#/)
+  - [**https://apps.nationalmap.gov/lidar-explorer/#/**](https://apps.nationalmap.gov/lidar-explorer/#/)
   
 - **NOAA Data Access Viewer**
 
-  [**https://coast.noaa.gov/dataviewer/#/**](https://coast.noaa.gov/dataviewer/#/)
+  - [**https://coast.noaa.gov/dataviewer/#/**](https://coast.noaa.gov/dataviewer/#/)
 
 - **State LiDAR Portals** (*examples*)
 
@@ -30,19 +30,19 @@
 
 - **Japan**
 
-  [**https://www.geospatial.jp/ckan/dataset**](https://www.geospatial.jp/ckan/dataset)
+  - [**https://www.geospatial.jp/ckan/dataset**](https://www.geospatial.jp/ckan/dataset)
 
 - **Spain**
 
-  [**https://centrodedescargas.cnig.es/CentroDescargas/buscar-mapa**](https://centrodedescargas.cnig.es/CentroDescargas/buscar-mapa)
+  - [**https://centrodedescargas.cnig.es/CentroDescargas/buscar-mapa**](https://centrodedescargas.cnig.es/CentroDescargas/buscar-mapa)
 
 - **Scotland**
 
-  [**https://remotesensingdata.gov.scot/data#/list**](https://remotesensingdata.gov.scot/data#/list)
+  - [**https://remotesensingdata.gov.scot/data#/list**](https://remotesensingdata.gov.scot/data#/list)
 
 - **OpenTopography**
   
-  [**https://portal.opentopography.org/datasets**](https://portal.opentopography.org/datasets)
+  - [**https://portal.opentopography.org/datasets**](https://portal.opentopography.org/datasets)
 
 ***
 
@@ -50,7 +50,7 @@
 
 - List of Federal, State, County, City, etc ArcGIS Servers **Curated by Joseph Elfelt**
 
-  [**https://mappingsupport.com/p/surf_gis/list-federal-state-county-city-GIS-servers.pdf**](https://mappingsupport.com/p/surf_gis/list-federal-state-county-city-GIS-servers.pdf)
+  - [**https://mappingsupport.com/p/surf_gis/list-federal-state-county-city-GIS-servers.pdf**](https://mappingsupport.com/p/surf_gis/list-federal-state-county-city-GIS-servers.pdf)
 
 ***
 
