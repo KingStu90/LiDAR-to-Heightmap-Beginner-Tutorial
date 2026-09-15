@@ -334,7 +334,6 @@ Map size: 2048 x 2048
 <div align="center">
   <img src="../06_photos/98_diamond_head.webp"
   alt="Diamond Head in-game screenshot">
-  <br>
 </div>
 
 *Aerial Imagery Credit:* **USDA-FPAC-BC-GEO / Maxar-DigitalGlobe -** [**Hawaiian Islands Vivid Standard Satellite Orthoimagery**](https://geodata.hawaii.gov/arcgis/rest/services/SoH_Imagery/Vivid_2022/ImageServer)
