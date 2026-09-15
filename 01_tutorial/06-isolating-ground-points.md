@@ -2,7 +2,8 @@
 
 ### Overview
 
-In this step, we are isolating the **ground** from **non-ground points**. To do this, the Cloth Simulation Filter (CSF) tool uses a simulated cloth draped over the inverted point cloud (*Example A*) to determine which points can be classified as ground and non-ground.
+In this step, we are isolating the **ground** from **non-ground points**. To do this, the [**Cloth Simulation Filter**](https://www.cloudcompare.org/doc/wiki/index.php/CSF_(plugin)) (CSF) tool uses a simulated cloth draped over the inverted point cloud (*Example A*) to determine which points can be classified as ground and non-ground. 
+
 
 <p style="text-align: center;"><strong>Example A</strong></p>
 
