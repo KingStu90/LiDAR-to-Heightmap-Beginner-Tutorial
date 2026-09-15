@@ -53,6 +53,8 @@
   </figure>
 </div>
 
+<br>
+
 <div style="display: flex; flex-direction: column; align-items: center;">
   <figure style="margin: 0; text-align: center;">
     <img src="../06_photos/19_basemap_import_settings.webp" 
