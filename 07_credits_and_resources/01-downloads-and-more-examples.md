@@ -46,7 +46,7 @@
 
 <h2>Heightmap Import Settings</h2>
 
-<img src="../06_photos/19_beamng_import_settings.webp" alt="Heightmap Import Settings" width="800">
+<img src="../06_photos/19_beamng_import_settings.webp" alt="Heightmap Import Settings">
 
 <p><em>Swing Arm City, UT</em></p>
 
@@ -56,7 +56,7 @@
 
 <h2>Basemap Import Settings</h2>
 
-<img src="../06_photos/19_basemap_import_settings.webp" alt="Basemap Import Settings" width="800">
+<img src="../06_photos/19_basemap_import_settings.webp" alt="Basemap Import Settings">
 
 <p><em>Swing Arm City, UT</em></p>
 
