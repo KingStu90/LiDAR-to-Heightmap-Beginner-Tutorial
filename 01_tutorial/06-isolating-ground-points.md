@@ -171,4 +171,3 @@ done
 [**Step 8: Scale Point Cloud to 50%**](08-scale-50.md) →
 
 ***
-
