@@ -43,14 +43,14 @@
 |        4         |         1x          |              1x              |        4x         |
 
 <div align="center">
-  <h3>BeamNG.drive Heightmap Import Settings</h3>
+  <h3>Heightmap Import Settings</h3>
   <img src="../06_photos/19_beamng_import_settings.webp" 
   alt="BeamNG import settings"
   style="max-width: 100%; height: auto;">
 </div>
 
 <div align="center">
-  <h3>BeamNG.drive Basemap Import Settings</h3>
+  <h3>Basemap Import Settings</h3>
   <img src="../06_photos/19_basemap_import_settings.webp" 
   alt="BeamNG import settings"
   style="max-width: 100%; height: auto;">
