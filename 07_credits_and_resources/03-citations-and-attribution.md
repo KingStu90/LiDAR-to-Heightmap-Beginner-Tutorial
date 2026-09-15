@@ -3,6 +3,7 @@
 ### Downloadable Maps - Data Sources
 
 ***
+
 #### 1) Buttonwillow Raceway Park - California
 
 - **LiDAR Data**
@@ -118,7 +119,6 @@ United States Department of Agriculture, Farm Production and Conservation Busine
 [**Final Results**](01-downloads-and-more-examples.md) →
 
 ## LiDAR Data and Other Resources
-
 
 [**Useful Resources**](02-lidar-data-and-other-resources.md) →
 
