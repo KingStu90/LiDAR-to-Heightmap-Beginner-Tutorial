@@ -148,9 +148,9 @@ If you want to use the Docker workflow, install Docker first:
 
 After installing Docker, open a terminal and navigate to the root directory of the project (the directory containing the Dockerfile and run_pipeline.sh).
 
-Build the Docker image with:
-
 <br>
+
+Build the Docker image with:
 
 ```bash
 docker build -t lidar-pipeline .
