@@ -92,6 +92,7 @@ docker run --rm \
 ### Instructions
 
 - This script combines multiple `.tif` files into a single mosaic, **reprojects it to EPSG:6424 using Lanczos resampling**, and saves the result as a compressed, tiled `.tif`. It then removes the temporary files created during processing.
+
 #### Native Execution 
 
 ```bash
