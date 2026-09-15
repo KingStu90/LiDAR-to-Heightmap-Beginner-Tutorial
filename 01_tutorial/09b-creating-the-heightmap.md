@@ -15,8 +15,7 @@ In general, I find CloudCompare **Kriging** to produce a sharper raster than Clo
 
 However, as shown below, when there are "*nodata*" or *empty spaces* along the edge of the dataset, CloudCompare **Interpolate may produce a more desirable raster**.
 
-***Note***: As shown with **CloudCompare Interpolate**, the black areas represent *nodata* and are not **real elevation data**.
-When the resulting raster is read by software such as GDAL or QGIS, these *nodata* areas may be interpreted as a value of 0, causing the minimum elevation to be **incorrect**. This means the height range used to create the heightmap will not be accurate.
+***Note***: As shown with **CloudCompare Interpolate**, the black areas represent *nodata* and are not **real elevation data**. When the resulting raster is read by software such as GDAL or QGIS, these *nodata* areas may be interpreted as a value of 0, causing the minimum elevation to be **incorrect**. This means the height range used to create the heightmap will not be accurate.
 
 It is possible to replace the *nodata* areas with the **minimum elevation** with `gdal_calc.py`, but this is out of the scope of this tutorial and is not covered.
 
