@@ -140,7 +140,7 @@ All of the software used in the tutorial is listed below and is free to dow
 
 ### Docker Execution
 
-*The Docker workflow is primarily intended for Linux users. Docker Desktop can run Linux containers on Windows using WSL 2, but this tutorial does not currently provide Windows-specific Docker instructions or test the Docker workflow on Windows.*
+*The Docker workflow is primarily intended for Linux users. Docker Desktop can run Linux containers on Windows using WSL 2, but this tutorial does not currently provide Windows-specific Docker instructions and I have not tested the Docker workflow on Windows.*
 
 If you want to use the Docker workflow, install Docker first:
 
