@@ -42,24 +42,24 @@
 |        2         |         1x          |              1x              |        2x         |
 |        4         |         1x          |              1x              |        4x         |
 
-<<div align="center">
-  <figure style="margin: 0;">
+<div style="text-align: center;">
+  <figure style="display: inline-block; margin: 0; text-align: left;">
     <img src="../06_photos/19_beamng_import_settings.webp" 
          alt="BeamNG import settings" 
          style="max-width: 100%; height: auto;">
-    <figcaption style="margin-top: 8px; font-style: italic; color: #666;">
-      Example: Swing Arm City, UT
+    <figcaption style="margin-top: 8px; font-style: italic; color: #666; text-align: center;">
+      Swing Arm City, UT
     </figcaption>
   </figure>
 </div>
 
-<<div align="center">
-  <figure style="margin: 0;">
+<div style="text-align: center;">
+  <figure style="display: inline-block; margin: 0; text-align: left;">
     <img src="../06_photos/19_basemap_import_settings.webp" 
          alt="BeamNG import settings" 
          style="max-width: 100%; height: auto;">
-    <figcaption style="margin-top: 8px; font-style: italic; color: #666;">
-      Example: Swing Arm City, UT
+    <figcaption style="margin-top: 8px; font-style: italic; color: #666; text-align: center;">
+      Swing Arm City, UT
     </figcaption>
   </figure>
 </div>
