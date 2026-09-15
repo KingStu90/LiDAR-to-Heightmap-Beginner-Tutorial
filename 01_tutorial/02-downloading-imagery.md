@@ -104,7 +104,7 @@ docker run --rm \
   
 **D)** **Select the point-cloud tile from the "Calculate from" menu.** QGIS then downloads imagery covering exactly the same area as the point cloud.
   
-**E)** **Higher DPI produces a higher-resolution exported image, with more pixels covering the same area.** This gives the point cloud, which is often denser than the imagery, more detailed color information to sample from. This usually results in a sharper-looking basemap. *NOTE: There is a limit for the download file size on some servers, and the imagery may be blank if the download exceeds this limit*.
+**E)** **Higher DPI produces a higher-resolution exported image, with more pixels covering the same area.** This gives the point cloud, which is often denser than the imagery, more detailed color information to sample from. This usually results in a sharper-looking basemap. **NOTE: There is a limit for the download file size on some servers, and the imagery may be blank if the download exceeds this limit**.
 
 ***
 
