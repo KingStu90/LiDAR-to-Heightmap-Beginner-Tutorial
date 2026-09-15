@@ -35,7 +35,7 @@ The important takeaway is that for smaller projects, you can generally do most o
   </tr>
 </table>
 
-For this tutorial, the code I have provided uses CloudCompare's SOR Filter to **remove statistical outliers**, as shown in the Before and After photos.<br> 
+For this tutorial, the code I have provided uses CloudCompare's SOR Filter to **remove statistical outliers**, as shown in the *Before* and *After* photos.<br> 
 The values used are relatively conservative and **may have to be changed for different datasets.**
 
 ***
