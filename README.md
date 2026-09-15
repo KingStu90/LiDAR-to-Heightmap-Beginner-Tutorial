@@ -150,6 +150,8 @@ After installing Docker, open a terminal and navigate to the root directory of t
 
 Build the Docker image with:
 
+<br>
+
 ```bash
 docker build -t lidar-pipeline .
 ```
