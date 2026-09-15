@@ -344,6 +344,8 @@ Map size: 2048 x 2048
 
 [**README**](../README.md) ←
 
+***
+
 ## LiDAR Data and Other Resources
 
 [**Useful Resources**](02-lidar-data-and-other-resources.md) →
