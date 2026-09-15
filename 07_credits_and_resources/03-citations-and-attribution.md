@@ -122,5 +122,6 @@ United States Department of Agriculture, Farm Production and Conservation Busine
 
 ### LiDAR Data and Other Resources
 
-***
 [**Useful Resources**](02-lidar-data-and-other-resources.md) →
+
+***
