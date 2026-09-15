@@ -142,13 +142,9 @@ All of the software used in the tutorial is listed below and is free to dow
 
 *The Docker workflow is primarily intended for Linux users. Docker Desktop can run Linux containers on Windows using WSL 2, but this tutorial does not currently provide Windows-specific Docker instructions or test the Docker workflow on Windows.*
 
-<br>
-
 If you want to use the Docker workflow, install Docker first:
 
 [**Download Docker**](https://www.docker.com/get-started/)
-
-<br>
 
 After installing Docker, open a terminal and navigate to the root directory of the project (the directory containing the Dockerfile and run_pipeline.sh).
 
