@@ -12,7 +12,7 @@ For example,
 
 1) **Copy** the developer `.json` files from whichever developer maps have the configuration files you want to use and move them into **the same folder**.
 
-	*You **will** have to rename the developer configuration files so they have different file names. 
+	You **will** have to rename the developer configuration files so they have different file names. 
 	
 	For example: 
 
@@ -22,7 +22,7 @@ For example,
 
 2) Save the Python code in a **text document** in **the same folder** as the `.json` files and save it as a `.py`. 
    
-	*For example*:
+	For example:
 	
 	`combine_forestitems.py`
 
