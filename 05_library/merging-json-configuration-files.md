@@ -2,7 +2,7 @@
 
 This Python script combines multiple `.json` configuration files from different developer maps into a **single combined** `.json` **file** that can be used in your own project. 
 
-For example,
+**For example:**
 
 - `art > forest > managedItemData.json` or
 
@@ -14,7 +14,7 @@ For example,
 
 	You **will** have to rename the developer configuration files so they have different file names. 
 	
-	For example: 
+	**For example:** 
 
 	`managedItemData_westcoast.json`
 
@@ -22,13 +22,13 @@ For example,
 
 2) Save the Python code in a **text document** in **the same folder** as the `.json` files and save it as a `.py`. 
    
-	For example:
+	**For example:**
 	
 	`combine_forestitems.py`
 
 3) Open a terminal and navigate to the folder containing the `.json` files and the `.py`file. 
 
-	Run:
+	**Run:**
    
 	`	python3 combine_forestitems.py`
    
