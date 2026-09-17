@@ -15,7 +15,7 @@ For downloading imagery outside the U.S., I will only briefly cover the QGIS met
   <tr>
     <td align="center" width="50%">
       <strong>Downloaded through QGIS</strong><br>
-      <img src="/LiDAR-to-Heightmap-Tutorial-Website/photos/02a_esri_basemap.webp"
+      <img src="../06_photos/02a_esri_basemap.webp"
            alt="Esri World Imagery"
            width="80%"><br>
       <strong>
@@ -28,7 +28,7 @@ For downloading imagery outside the U.S., I will only briefly cover the QGIS met
     </td>
     <td align="center" width="50%">
       <strong>Downloaded through NOAA</strong><br>
-      <img src="/LiDAR-to-Heightmap-Tutorial-Website/photos/02b_naip_basemap.webp"
+      <img src="../06_photos/02b_naip_basemap.webp"
            alt="NAIP imagery"
            width="80%"><br>
       <strong>National Agriculture Imagery Program (NAIP)</strong><br>
