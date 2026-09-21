@@ -47,15 +47,15 @@ docker run --rm \
 echo "Finished: $output_file"
 ```
 
-`outsize` - Resizes the image to a **specific width and height** in pixels.
+`outsize` - Resizes the image to a specific width and height in pixels.
   
 For **aerial and satellite imagery**, these resampling methods are good options:
 
-**A)** `r lanczos` - Usually the best choice when **maximum sharpness and detail** are the priority.
+**A)** `r lanczos` - Usually the best choice when maximum sharpness and detail are the priority.
 
-**B)** `r cubic` - Produces **sharper results than bilinear**, with more processing time.
+**B)** `r cubic` - Produces sharper results than bilinear, with more processing time.
 
-**C)** `r bilinear` - **Faster than cubic**, but generally produces a softer image.
+**C)** `r bilinear` - Faster than cubic, but generally produces a softer image.
 
 ***
 
