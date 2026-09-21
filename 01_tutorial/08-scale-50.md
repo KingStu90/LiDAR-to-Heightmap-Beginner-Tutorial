@@ -29,7 +29,7 @@ Especially for a race track, **the most important thing to me was keeping the or
 
 I found that the method that worked best for getting a ready-to-drive heightmap into BeamNG.drive was to scale the point cloud **down to 50% in CloudCompare** before generating the heightmap, and then **scale the resulting heightmap back up** by the same amount in BeamNG.drive via `Meters-per-Pixels`.
 
-When the heightmap is scaled back up in BeamNG.drive, the elevation changes are spread across a wider area, making them more gradual (*Example B*).
+When the heightmap is scaled back up in BeamNG.drive, **the elevation changes are spread across a wider area, making them more gradual** (*Example B*).
 
 <table>
   <tr>
@@ -73,20 +73,20 @@ When the heightmap is scaled back up in BeamNG.drive, the elevation changes are 
   </tr>
 </table>
 
-As shown in the in-game screenshots (*Example B*), the terrain becomes **visibly smoother** as the point cloud is scaled down. I also found that the **maximum force feedback decreased** when driving the same section of road at approximately **60 mph**.
+As shown in the in-game screenshots (*Example B*), the terrain becomes visibly smoother as the point cloud is scaled down. I also found that the **maximum force feedback decreased** when driving the same section of road at approximately 60 mph.
 
 *The testing was very basic and not really scientific, but the reduction in FFB noise was noticeable enough to make the track drivable without manually smoothing the driving surface for my particular direct-drive wheel/settings*.
 
 > [!IMPORTANT]
 > If you are following my process of scaling the point cloud to 50%, the **X, Y, and Z dimensions are all reduced by 50%**.
 >
-> Setting `Meters per Pixel` to *2* in BeamNG.drive **restores the horizontal** (*X/Y*) **scale** but does **not** affect the **height** (*Z-axis*). The height must therefore be manually scaled by 2x to restore the original elevation. This is done in *Step 10*.
+> Setting `Meters per Pixel` to *2* in BeamNG.drive **restores the horizontal (X/Y) scale** but does **not** affect the **height** (*Z-axis*). The height must therefore be manually scaled by 2x to restore the original elevation. This is done in *Step 10*.
 
 ***
 
 ### Instructions
 
-- This script **converts the X, Y, and Z coordinates** of each `.laz` point cloud using a conversion factor of **0.5**. It then saves the converted point clouds as new `.laz` files.
+- This script converts the X, Y, and Z coordinates of each `.laz` point cloud using a conversion factor of 0.5. It then saves the converted point clouds as new `.laz` files.
 
 #### Native Execution 
 
