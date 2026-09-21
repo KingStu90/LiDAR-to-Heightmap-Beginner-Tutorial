@@ -129,10 +129,12 @@ done
 ./run_pipeline.sh 06a_heightmap_csf_filter.sh
 ```
 
->[!WARNING]
->The **command below** converts the `.las` back into `.laz`.
+> [!WARNING]  
+> As mentioned before, CloudCompare is primarily built for processing with the GUI. In order to get CloudCompare to work with Docker, **all scalar fields had to be removed using** `-REMOVE_ALL_SFS`, and the **point cloud also had to be exported as a** `.las` **file**.
 > 
->***This only applies to the Docker workflow.***
+> The command below converts the `.las` back into `.laz`.
+> 
+> ***This only applies to the Docker workflow.***
 
 #### Docker Execution 
 
