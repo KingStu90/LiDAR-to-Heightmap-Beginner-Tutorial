@@ -6,7 +6,7 @@
 
 *This is the original method I used to create the basemap raster using PDAL*.
 
-The current tutorial uses **CloudCompare's Rasterize tool** because it produces better results when there are gaps in the point cloud. I am keeping this **PDAL workflow as an alternative method** because it may be useful for other datasets or if you have trouble with CloudCompare CLI.
+The current tutorial uses CloudCompare's Rasterize tool because it produces better results when there are gaps in the point cloud. I am keeping this PDAL workflow as an alternative method because it may be useful for other datasets or if you have trouble with CloudCompare CLI.
 
 This method produces the **same type of basemap** used in the main workflow, so after finishing this step, continue with **Step 12**.
 
@@ -25,7 +25,7 @@ docker run --rm \
     pdal info 02_data/04_colorize/s60975w23675_COLOR.laz --stats
 ```
 
-Look for the **Red**, **Green**, and **Blue** values in the output. The `maximum` value will indicate whether the RGB data is 8-bit or 16-bit.
+Use `pdal info` on one of the point cloud tiles and look for the **Red**, **Green**, and **Blue** values in the output. The `maximum` value will indicate whether the RGB data is 8-bit or 16-bit.
 
 | Type             | Size in Bits | Values    | Text Representations                   |
 | ---------------- | ------------ | --------- | -------------------------------------- |
@@ -50,7 +50,7 @@ Look for the **Red**, **Green**, and **Blue** values in the output. The `ma
   
 	- `1.0` would produce one pixel per square unit.
 	  
-	- `0.5` produces **4× as many pixels**.
+	- `0.5` produces 4× as many pixels.
 
 - `output_type: idw` blends nearby points to calculate each pixel. (*my recommendation for this tutorial/process*) 
   
@@ -66,7 +66,7 @@ Look for the **Red**, **Green**, and **Blue** values in the output. The `ma
 
 **B)** **Bash Scripts**
 
-- Choose **1 Tile** if you have limited RAM. Choose **4 Tiles** to process **four tiles in parallel**, which increases memory usage.
+- Choose 1 Tile if you have limited RAM. Choose 4 Tiles to process four tiles in parallel, which increases memory usage.
 
 **Native Execution - 1 Tile**
 
