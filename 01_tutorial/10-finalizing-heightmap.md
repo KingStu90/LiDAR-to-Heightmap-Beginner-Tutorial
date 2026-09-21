@@ -121,7 +121,7 @@ echo "Finished: $output_file"
 > [!IMPORTANT]
 > If you are following my process of scaling the point cloud to 50%, the **X, Y, and Z dimensions are all reduced by 50%**.
 >
-> Setting `Meters per Pixel` to *2* in BeamNG.drive **restores the horizontal** (*X/Y*) **scale** but does **not** affect the **height** (*Z-axis*). The height must therefore be **manually scaled by 2x to restore the original elevation**.
+> Setting `Meters per Pixel` to *2* in BeamNG.drive **restores the horizontal (X/Y) scale** but does **not** affect the **height** (*Z-axis*). The height must therefore be manually scaled by 2x to restore the original elevation.
 >
 >*Scaled Height (50%) = 9.457 m*<br>
 >*Actual Height (2x) = 18.914 m*
