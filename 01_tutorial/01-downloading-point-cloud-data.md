@@ -31,20 +31,20 @@ While the USGS covers much of the United States, **additional LiDAR datasets** m
   </tr>
 </table>
 
-**A)** Download the `downloadlist.txt` file from **USGS LidarExplorer**.
+**A)** Download the `downloadlist.txt` file from USGS LidarExplorer.
 
 **B)** *Preprocessed LiDAR products are also available*, but they are **not used** in this tutorial. We need the **full point cloud** because it will later be colorized with aerial imagery and used to create the basemap raster.
 
-**C)** All of the `.laz` and `.tif` files used by this tutorial are **stored and processed** in `02_data`.
+**C)** All of the `.laz` and `.tif` files used by this tutorial are stored and processed in `02_data`.
 
-**D)** The `downloadlist.txt` file should be **saved in** `04_resources`.
+**D)** The `downloadlist.txt` file should be saved in `04_resources`.
 
 > [!IMPORTANT]
 > **E)** This entire workflow is set up so all the **commands are run from the project root** `lidar-to-heightmap-tutorial`.
 
 ***
 
-- **This script uses** `wget` **to download everything listed in** `downloadlist.txt`. It resumes incomplete downloads, skips files that already exist, and spaces out requests with randomized delays.
+- This script uses `wget` to download everything listed in `downloadlist.txt`. It resumes incomplete downloads, skips files that already exist, and spaces out requests with randomized delays.
 
 #### Native Execution 
 
