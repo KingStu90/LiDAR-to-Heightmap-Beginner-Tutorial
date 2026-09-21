@@ -14,7 +14,7 @@
 
 ### Instructions
 
-- This script converts the X, Y, and Z coordinates of each `.laz` point cloud from feet to meters using a conversion factor of 0.3048006096 meters per foot. It then saves the converted point clouds as new `.laz` files.
+- This script converts the X, Y, and Z coordinates of each `.laz` point cloud from feet to meters using a conversion factor of 0.304800609601219 meters per foot. It then saves the converted point clouds as new `.laz` files.
 
 #### Native Execution 
 
