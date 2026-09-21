@@ -4,14 +4,14 @@
 
 - Included are the **original** and the **edited versions** of the heightmap and basemap, along with the tree placement map where applicable.
  
-  - The **edited versions** are located under `mapname` > `terrain` > `materialname`.
+  - The edited versions are located under `mapname` > `terrain` > `materialname`.
 
  **Download Link:** [**Google Drive**](https://drive.google.com/drive/folders/1HLpHrmBgWncCEFOW96CuQhYWVRa4fMVH?usp=drive_link)
  
 >[!NOTE]
 >**Feel free to modify and use these maps in your own projects**.
 >
->If you find the maps or this tutorial useful, please consider sharing the link with others who might find it helpful. **A link back to this tutorial is always appreciated!**
+>If you find the maps or this tutorial useful, please consider sharing the link with others who might find it helpful. A link back to this tutorial is always appreciated!
 
 ***
 
@@ -32,9 +32,9 @@
 | `t_terrain_base_ao.png`  | Ambient occlusion  | Grayscale |   8-bit   |
 |  `t_terrain_base_r.png`  | Surface roughness  | Grayscale |   8-bit   |
 
-- All the `t_terrain_base_` files should be the **same dimension** as the **basemap**
+- All the `t_terrain_base_` files should be the same dimension as the basemap
 
-- No **Alpha Channels**
+- No Alpha Channels
 
 | Meters Per Pixel | Heightmap Dimension | Tree Placement Map Dimension | Basemap Dimension |
 | :--------------: | :-----------------: | :--------------------------: | :---------------: |
