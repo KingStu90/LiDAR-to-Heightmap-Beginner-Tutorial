@@ -35,7 +35,7 @@ The important takeaway is that for smaller projects, you can generally do most o
   </tr>
 </table>
 
-For this tutorial, the code I have provided uses CloudCompare's SOR Filter to **remove statistical outliers**, as shown in the *Before* and *After* photos.<br> 
+For this tutorial, the code I have provided uses CloudCompare's SOR Filter to remove statistical outliers, as shown in the Before and After photos.<br>
 The values used are relatively conservative and **may have to be changed for different datasets.**
 
 ***
@@ -50,12 +50,12 @@ The values used are relatively conservative and **may have to be changed for dif
 
 The values used in the SOR script correspond to the following:
 
-- **12** (*nearest neighbors*): Defines the **local neighborhood** around each point that the filter uses for comparison. A higher number looks at a larger surrounding area, while a lower number focuses on a smaller area.
+- **12** (*nearest neighbors*): Defines the local neighborhood around each point that the filter uses for comparison. **A higher number looks at a larger surrounding area, while a lower number focuses on a smaller area**.
     
-- **2.5** (*standard deviations*): Controls **how far a point can differ from the surrounding points before it is removed**. A larger value removes fewer points, while a smaller value removes more points.
+- **2.5** (*standard deviations*): Controls how far a point can differ from the surrounding points before it is removed. **A larger value removes fewer points, while a smaller value removes more points**.
 
 > [!NOTE]  
-> These commands are written for the **Flatpak version of CloudCompare** on Linux Mint. If you are using the **native execution** commands, you ***may have to remove*** the Flatpak/environment lines and replace them with `CloudCompare`.
+> These commands are written for the **Flatpak version of CloudCompare** on Linux Mint. If you are using the native execution commands, you ***may have to remove*** the Flatpak/environment lines and replace them with `CloudCompare`.
 
 #### Native Execution (*Linux Mint Flatpak*)
 
