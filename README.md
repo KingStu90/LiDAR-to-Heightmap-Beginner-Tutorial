@@ -100,7 +100,7 @@ You can follow the tutorial using the included `downloadlist.txt` to reproduce t
 >[!IMPORTANT]
 >All of the steps in the tutorial provide a “**Native Execution**” command which **requires the user to have the program used by that step installed on their PC**.
 >
->There is also a “**Docker Execution**” command which requires **Docker**. The advantage of using Docker is that the programs and dependencies used by the Docker workflow are installed in a self-contained environment, **so you don’t have to install and configure each program separately**.
+>There is also a “**Docker Execution**” command which requires Docker. The advantage of using Docker is that the programs and dependencies used by the Docker workflow are installed in a self-contained environment, **so you don’t have to install and configure each program separately**.
 
 ***
 
