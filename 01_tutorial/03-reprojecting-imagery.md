@@ -8,7 +8,7 @@
   
 - The two photos in **Example A may look identical before and after** reprojecting because EPSG:2229 and EPSG:6424 use the same California State Plane zone and the same units of measurement. However, the imagery's geographic reference has changed.
   
-- *In order to visually show what reprojection does*, the imagery in **Example B** was downloaded in **EPSG:26910** and then reprojected into **EPSG:6424**.
+- ***In order to visually show what reprojection does***, the imagery in Example B was downloaded in **EPSG:26910** and then reprojected into **EPSG:6424**.
 
 >[!NOTE]
 >The script works with either a single imagery tile or multiple individual tiles downloaded from QGIS.
