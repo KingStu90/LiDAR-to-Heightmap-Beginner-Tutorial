@@ -95,14 +95,16 @@ You can follow the tutorial using the included `downloadlist.txt` to reproduce t
 
 ***
 
-### Requirements
+### Software Requirements
 
 >[!IMPORTANT]
 >All of the steps in the tutorial provide a “**Native Execution**” command which **requires the user to have the program used by that step installed on their PC**.
 >
 >There is also a “**Docker Execution**” command which requires **Docker**. The advantage of using Docker is that the programs and dependencies used by the Docker workflow are installed in a self-contained environment, **so you don’t have to install and configure each program separately**.
 
-### Native Execution
+***
+
+### Native Execution - Software Requirements
 
 All of the software used in the tutorial is listed below and is free to download.
 
@@ -126,32 +128,33 @@ All of the software used in the tutorial is listed below and is free to dow
 
 ***
 
-### Docker Execution
+### Docker Execution - Software Requirements
 
 *The Docker workflow is primarily intended for Linux users. Docker Desktop can run Linux containers on Windows using WSL 2, but this tutorial does not currently provide Windows-specific Docker instructions and I have not tested the Docker workflow on Windows.*
 
-If you want to use the Docker workflow, install Docker first:
+If you want to use the Docker workflow, **install Docker**:
 
 [**Download Docker**](https://www.docker.com/get-started/)
 
-After installing Docker, open a terminal and navigate to the root directory of the project (the directory containing the Dockerfile and run_pipeline.sh).
+After installing Docker, open a terminal and navigate to the root directory of the project (*the directory containing the Dockerfile and run_pipeline.sh*).
 
-Build the Docker image with:
+**Build the Docker image with:**
 
 ```bash
 docker build -t lidar-pipeline .
 ```
 
-Then make the pipeline script executable:
+**Then make the pipeline script executable:**
 
 ```bash
 chmod +x run_pipeline.sh
 ```
 
-Individual processing scripts can then be run through Docker:
+**Individual processing scripts can then be run through Docker:**
 
 ```bash
-./run_pipeline.sh 01_download.sh
+# This is only an example. This is the code used in Step 4.
+./run_pipeline.sh 04_colorize.sh
 ```
 
 >[!NOTE]
