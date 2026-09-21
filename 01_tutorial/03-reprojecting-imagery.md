@@ -4,9 +4,9 @@
 
 - This tutorial is more focused on the end result rather than explaining some of the more technical Geographic Information System (GIS) concepts, such as the **Coordinate Reference System** (CRS). For these topics, I will point to other [**resources**](https://earthdatascience.org/courses/earth-analytics/spatial-data-r/intro-to-coordinate-reference-systems/).
 
-- The main thing to make sure of is that the **imagery** and **point cloud** use the **same EPSG code** so they line up correctly during the colorization process.
+- The main thing to make sure of is that the imagery and point cloud use the **same EPSG code** so they line up correctly during the colorization process.
   
-- The two photos in **Example A may look identical before** and **after** reprojecting because **EPSG:2229** and **EPSG:6424** use the same California State Plane zone and the same units of measurement. However, the imagery's geographic reference has changed.
+- The two photos in **Example A may look identical before and after** reprojecting because EPSG:2229 and EPSG:6424 use the same California State Plane zone and the same units of measurement. However, the imagery's geographic reference has changed.
   
 - *In order to visually show what reprojection does*, the imagery in **Example B** was downloaded in **EPSG:26910** and then reprojected into **EPSG:6424**.
 
@@ -91,7 +91,7 @@ docker run --rm \
 
 ### Instructions
 
-- This script combines multiple `.tif` files into a single mosaic, **reprojects it to EPSG:6424 using Lanczos resampling**, and saves the result as a compressed, tiled `.tif`. It then removes the temporary files created during processing.
+- This script combines multiple `.tif` files into a single mosaic, reprojects it to EPSG:6424 using Lanczos resampling, and saves the result as a compressed, tiled `.tif`. It then removes the temporary files created during processing.
 
 #### Native Execution 
 
