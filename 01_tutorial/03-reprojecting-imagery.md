@@ -3,7 +3,7 @@
 ### Overview
 
 >[!IMPORTANT]
->These instructions are currently being revised to better handle point clouds and imagery from different locations, sources, and coordinate systems. The current procedure may not work for every dataset.
+>These instructions are currently being revised to better handle point clouds and imagery from different locations, sources, and coordinate systems. The current instructions for finding the EPSG code may not work for every dataset.
 
 - This tutorial is more focused on the end result rather than explaining some of the more technical Geographic Information System (GIS) concepts, such as the **Coordinate Reference System** (CRS). For these topics, I will point to other [**resources**](https://earthdatascience.org/courses/earth-analytics/spatial-data-r/intro-to-coordinate-reference-systems/).
 
