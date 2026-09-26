@@ -2,6 +2,9 @@
 
 ### Overview
 
+>[!IMPORTANT]
+>These instructions are currently being revised to better handle point clouds and imagery from different locations, sources, and coordinate systems. The current procedure may not work for every dataset.
+
 - This tutorial is more focused on the end result rather than explaining some of the more technical Geographic Information System (GIS) concepts, such as the **Coordinate Reference System** (CRS). For these topics, I will point to other [**resources**](https://earthdatascience.org/courses/earth-analytics/spatial-data-r/intro-to-coordinate-reference-systems/).
 
 - The main thing to make sure of is that the imagery and point cloud use the **same EPSG code** so they line up correctly during the colorization process.
